@@ -51,12 +51,12 @@ header h1 {
 header h2 {
   font-weight: normal;
 }
-/* Logo Damani Group */
+
 header img {
   height: 80px !important;
   width: auto;
 }
-/* Supprime le soulignement du lien dans le header */
+
 header a {
   text-decoration: none;
   color: inherit;
