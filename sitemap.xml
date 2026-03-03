@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- ENGLISH -->
-
   <url>
     <loc>https://contactdamani-tech.github.io/</loc>
   </url>
@@ -13,6 +11,10 @@
 
   <url>
     <loc>https://contactdamani-tech.github.io/applications.html</loc>
+  </url>
+
+  <url>
+    <loc>https://contactdamani-tech.github.io/contact.html</loc>
   </url>
 
   <url>
@@ -28,13 +30,6 @@
   </url>
 
   <url>
-    <loc>https://contactdamani-tech.github.io/contact.html</loc>
-  </url>
-
-
-  <!-- FRENCH -->
-
-  <url>
     <loc>https://contactdamani-tech.github.io/fr/</loc>
   </url>
 
@@ -47,6 +42,10 @@
   </url>
 
   <url>
+    <loc>https://contactdamani-tech.github.io/fr/contact.html</loc>
+  </url>
+
+  <url>
     <loc>https://contactdamani-tech.github.io/fr/solutions.html</loc>
   </url>
 
@@ -56,10 +55,6 @@
 
   <url>
     <loc>https://contactdamani-tech.github.io/fr/veroline-pi.html</loc>
-  </url>
-
-  <url>
-    <loc>https://contactdamani-tech.github.io/fr/contact.html</loc>
   </url>
 
 </urlset>
