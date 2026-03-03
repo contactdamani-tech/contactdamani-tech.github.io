@@ -4,7 +4,11 @@
   <url>
     <loc>https://contactdamani-tech.github.io/</loc>
   </url>
-
+  
+  <url>
+  <loc>https://contactdamani-tech.github.io/about.html</loc>
+  </url>
+  
   <url>
     <loc>https://contactdamani-tech.github.io/technology.html</loc>
   </url>
@@ -33,6 +37,10 @@
     <loc>https://contactdamani-tech.github.io/fr/</loc>
   </url>
 
+  <url>
+  <loc>https://contactdamani-tech.github.io/fr/about.html</loc>
+</url>
+  
   <url>
     <loc>https://contactdamani-tech.github.io/fr/technology.html</loc>
   </url>
