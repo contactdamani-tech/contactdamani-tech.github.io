@@ -53,8 +53,7 @@ header h2 {
   font-weight: normal;
 }
 /* Logo Damani Group */
-header .logo {
-  height: 45px;
+header img {
+  height: 38px !important;
   width: auto;
-  display: block;
 }
