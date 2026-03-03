@@ -57,7 +57,11 @@ header img {
   width: auto;
 }
 
-header a {
-  text-decoration: none;
-  color: inherit;
+/* Supprime tout style de lien dans le header */
+header a,
+header a:visited,
+header a:hover,
+header a:active {
+  text-decoration: none !important;
+  color: inherit !important;
 }
