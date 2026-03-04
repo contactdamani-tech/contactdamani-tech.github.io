@@ -104,10 +104,17 @@ header a {
 /* HERO PREMIUM */
 
 .hero {
-  background: linear-gradient(135deg, #003366, #001f3f);
-  color: white;
-  padding: 100px 20px;
+  background-image: linear-gradient(
+      rgba(0,0,0,0.55),
+      rgba(0,0,0,0.55)
+    ),
+    url('/assets/charging machine.jpg');
+
+  background-size: cover;
+  background-position: center;
+  padding: 160px 20px;
   text-align: center;
+  color: white;
 }
 
 .hero h1 {
