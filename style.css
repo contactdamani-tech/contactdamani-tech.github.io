@@ -342,3 +342,14 @@ nav {
   transform: translateY(-5px);
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
+.footer-column p {
+  margin-bottom: 8px;
+}
+
+.footer-column a {
+  opacity: 0.9;
+}
+
+.footer-column a:hover {
+  opacity: 1;
+}
