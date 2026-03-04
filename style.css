@@ -104,12 +104,7 @@ header a {
 /* HERO PREMIUM */
 
 .hero {
-  background-image: linear-gradient(
-      rgba(0,0,0,0.55),
-      rgba(0,0,0,0.55)
-    ),
-    url('../assets/hero-steel.jpg');
-
+  background: url("https://contactdamani-tech.github.io/assets/hero-steel.jpg");
   background-size: cover;
   background-position: center;
   padding: 160px 20px;
