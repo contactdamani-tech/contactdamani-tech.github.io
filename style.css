@@ -103,8 +103,8 @@ header a {
 }
 /* HERO PREMIUM */
 
-background-image: url('/assets/hero-steel.jpg');
-
+.hero {
+  background-image: url('/assets/hero-steel.jpg');
   background-size: cover;
   background-position: center;
   padding: 160px 20px;
