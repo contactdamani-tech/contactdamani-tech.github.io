@@ -328,3 +328,17 @@ nav {
   background-color: #e6e6e6;
   transform: translateY(-2px);
 }
+/* WHY DAMANI CARDS */
+
+.why-grid div {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 6px;
+  border: 1px solid #e5e5e5;
+  transition: 0.3s ease;
+}
+
+.why-grid div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
