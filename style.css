@@ -104,7 +104,12 @@ header a {
 /* HERO PREMIUM */
 
 .hero {
-  background-image: url('/assets/hero-steel.jpg');
+  background-image: linear-gradient(
+      rgba(0,0,0,0.55),
+      rgba(0,0,0,0.55)
+    ),
+    url('../assets/hero-steel.jpg');
+
   background-size: cover;
   background-position: center;
   padding: 160px 20px;
