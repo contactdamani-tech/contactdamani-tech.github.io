@@ -386,3 +386,24 @@ nav {
 .pdf-button:hover {
   background-color: #002244;
 }
+/* PDF LIST ALIGNMENT */
+
+.pdf-list {
+  margin-top: 20px;
+}
+
+.pdf-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #e2e6ea;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+
+.pdf-item span {
+  font-weight: 600;
+  color: #003366;
+}
