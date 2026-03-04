@@ -181,4 +181,33 @@ header a {
   color: #003366;
   text-decoration: none;
 }
+/* WHY DAMANI SECTION */
 
+.why-damani {
+  background-color: #f4f6f9;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.why-damani h2 {
+  margin-bottom: 50px;
+  font-size: 2em;
+}
+
+.why-grid {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.why-grid div {
+  max-width: 300px;
+}
+
+.why-grid h3 {
+  color: #003366;
+  margin-bottom: 15px;
+}
