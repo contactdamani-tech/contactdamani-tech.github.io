@@ -104,3 +104,57 @@ header a {
   padding-top: 10px;
   font-size: 0.9em;
 }
+/* HERO SECTION */
+
+.hero {
+  background-color: #f4f6f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  color: #003366;
+}
+
+.hero p {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #003366;
+  color: #ffffff;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: #001f3f;
+}
+
+/* SOLUTIONS GRID */
+
+.home-solutions {
+  padding: 60px 20px;
+}
+
+.solutions-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.solution-box {
+  flex: 1;
+  min-width: 280px;
+  border: 1px solid #ddd;
+  padding: 25px;
+}
+
+.solution-box h3 {
+  color: #003366;
+}
