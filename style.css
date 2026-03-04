@@ -104,58 +104,82 @@ header a {
   padding-top: 10px;
   font-size: 0.9em;
 }
-/* HERO SECTION */
+/* HERO PREMIUM */
 
 .hero {
-  background-color: #f4f6f9;
-  padding: 60px 20px;
+  background: linear-gradient(135deg, #003366, #001f3f);
+  color: white;
+  padding: 100px 20px;
   text-align: center;
 }
 
 .hero h1 {
-  font-size: 2.5em;
-  color: #003366;
+  font-size: 2.8em;
+  margin-bottom: 20px;
 }
 
 .hero p {
   max-width: 800px;
-  margin: 20px auto;
+  margin: 0 auto 30px auto;
+  font-size: 1.2em;
 }
 
 .cta-button {
   display: inline-block;
-  background-color: #003366;
-  color: #ffffff;
-  padding: 12px 25px;
-  text-decoration: none;
+  background-color: #ffffff;
+  color: #003366;
+  padding: 14px 30px;
   font-weight: bold;
-  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.3s;
 }
 
 .cta-button:hover {
-  background-color: #001f3f;
+  background-color: #e6e6e6;
 }
 
-/* SOLUTIONS GRID */
+/* SOLUTIONS SECTION */
 
 .home-solutions {
-  padding: 60px 20px;
+  padding: 80px 20px;
+  background-color: #ffffff;
+}
+
+.home-solutions h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2em;
 }
 
 .solutions-grid {
   display: flex;
-  flex-wrap: wrap;
   gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .solution-box {
-  flex: 1;
-  min-width: 280px;
-  border: 1px solid #ddd;
-  padding: 25px;
+  background: #f4f6f9;
+  padding: 35px;
+  width: 400px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.solution-box:hover {
+  transform: translateY(-5px);
 }
 
 .solution-box h3 {
   color: #003366;
+  margin-bottom: 15px;
 }
+
+.solution-box a {
+  font-weight: bold;
+  color: #003366;
+  text-decoration: none;
+}
+
 body { background-color: #ffeeee !important; }
