@@ -1,9 +1,17 @@
+/* ================= GLOBAL ================= */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  padding: 0 40px;
   line-height: 1.6;
   color: #222;
+  background: #ffffff;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 /* ================= HEADER ================= */
@@ -53,6 +61,7 @@ body {
   color: #003366;
   font-weight: 600;
   white-space: nowrap;
+  transition: 0.2s;
 }
 
 .main-nav a:hover {
@@ -67,7 +76,7 @@ body {
     url("/assets/hero-steel.jpg");
   background-size: cover;
   background-position: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
   text-align: center;
   color: white;
 }
@@ -78,13 +87,13 @@ body {
 }
 
 .hero h1 {
-  font-size: 3em;
-  margin-bottom: 25px;
+  font-size: 2.8em;
+  margin-bottom: 20px;
 }
 
 .hero p {
-  font-size: 1.25em;
-  margin-bottom: 35px;
+  font-size: 1.2em;
+  margin-bottom: 30px;
   color: #dfe6ee;
 }
 
@@ -92,34 +101,73 @@ body {
   display: inline-block;
   background-color: #ffffff;
   color: #003366;
-  padding: 15px 35px;
+  padding: 14px 30px;
   font-weight: 700;
   border-radius: 6px;
   text-decoration: none;
+  transition: 0.25s;
 }
 
 .cta-button:hover {
   background-color: #e6e6e6;
 }
 
+/* ================= STATS ================= */
+
+.stats {
+  padding: 60px 20px;
+  background: #ffffff;
+}
+
+.stats-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.stats-grid div {
+  flex: 1;
+  min-width: 200px;
+}
+
+.stats-grid h3 {
+  font-size: 2.2em;
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.stats-grid p {
+  color: #555;
+}
+
 /* ================= SOLUTIONS ================= */
 
 .home-solutions {
-  padding: 80px 20px;
+  padding: 60px 20px;
+}
+
+.home-solutions h2 {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .solutions-grid {
   display: flex;
-  gap: 40px;
+  gap: 35px;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .solution-box {
   background: #f4f6f9;
-  padding: 35px;
-  width: 400px;
+  padding: 30px;
+  width: 380px;
   border-radius: 6px;
+  border: 1px solid #e5e5e5;
+  transition: 0.25s;
 }
 
 .solution-box:hover {
@@ -130,14 +178,14 @@ body {
 
 .why-damani {
   background-color: #f4f6f9;
-  padding: 80px 20px;
+  padding: 60px 20px;
   text-align: center;
 }
 
 .why-grid {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 40px;
   flex-wrap: wrap;
   max-width: 1100px;
   margin: 0 auto;
@@ -145,10 +193,11 @@ body {
 
 .why-grid div {
   background: #ffffff;
-  padding: 30px;
+  padding: 25px;
   border-radius: 6px;
   border: 1px solid #e5e5e5;
-  transition: 0.3s ease;
+  max-width: 300px;
+  transition: 0.25s;
 }
 
 .why-grid div:hover {
@@ -156,13 +205,177 @@ body {
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
 
+/* ================= INDUSTRIES ================= */
+
+.industries {
+  padding: 60px 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.industries h2 {
+  margin-bottom: 40px;
+}
+
+.industries-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.industries-grid div {
+  background: #f4f6f9;
+  padding: 25px;
+  border-radius: 6px;
+  max-width: 250px;
+  border: 1px solid #e5e5e5;
+  transition: 0.25s;
+}
+
+.industries-grid div:hover {
+  transform: translateY(-5px);
+}
+
+.industries-grid h3 {
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+/* ================= APPLICATIONS ================= */
+
+.applications-preview {
+  background: #f4f6f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.applications-preview h2 {
+  margin-bottom: 40px;
+}
+
+.applications-grid {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.app-card {
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 320px;
+  border: 1px solid #e5e5e5;
+  transition: 0.25s;
+}
+
+.app-card:hover {
+  transform: translateY(-5px);
+}
+
+.app-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.app-card h3 {
+  margin: 20px 0 10px 0;
+  color: #003366;
+}
+
+.app-card p {
+  padding: 0 20px 20px 20px;
+}
+
+/* ================= TRUST ================= */
+
+.industry-trust {
+  background: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.trust-intro {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  color: #555;
+}
+
+.trust-grid {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.trust-box {
+  background: #f4f6f9;
+  padding: 25px;
+  border-radius: 6px;
+  border: 1px solid #e5e5e5;
+  max-width: 250px;
+  transition: 0.25s;
+}
+
+.trust-box:hover {
+  transform: translateY(-5px);
+}
+
+.trust-box h3 {
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+/* ================= PDF BLOCK ================= */
+
+.pdf-download {
+  background: #f4f6f9;
+  border: 1px solid #e2e6ea;
+  padding: 25px;
+  margin-top: 35px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.pdf-button {
+  display: inline-block;
+  background-color: #003366;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.pdf-button:hover {
+  background-color: #002244;
+}
+
+.pdf-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e2e6ea;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+
 /* ================= FOOTER ================= */
 
 .site-footer {
   background-color: #003366;
   color: white;
-  margin-top: 60px;
-  padding: 40px 20px;
+  margin-top: 40px;
+  padding: 35px 20px;
 }
 
 .footer-container {
@@ -185,201 +398,4 @@ body {
   border-top: 1px solid rgba(255,255,255,0.3);
   margin-top: 20px;
   padding-top: 10px;
-}
-
-/* ================= PDF BLOCK ================= */
-
-.pdf-download {
-  background: #f4f6f9;
-  border: 1px solid #e2e6ea;
-  padding: 25px;
-  margin-top: 35px;
-  border-radius: 6px;
-  text-align: center;
-}
-
-.pdf-button {
-  display: inline-block;
-  background-color: #003366;
-  color: white;
-  padding: 12px 28px;
-  border-radius: 5px;
-  text-decoration: none;
-}
-
-.pdf-button:hover {
-  background-color: #002244;
-}
-
-.pdf-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 1px solid #e2e6ea;
-  padding: 15px 20px;
-  border-radius: 5px;
-  margin-bottom: 12px;
-}
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 40px 20px;
-}
-/* INDUSTRIAL STATS SECTION */
-
-.stats {
-  background: #ffffff;
-  padding: 70px 20px;
-}
-
-.stats-grid {
-  max-width: 1000px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  flex-wrap: wrap;
-}
-
-.stats-grid div {
-  flex: 1;
-  min-width: 200px;
-}
-
-.stats-grid h3 {
-  font-size: 2.5em;
-  color: #003366;
-  margin-bottom: 10px;
-}
-
-.stats-grid p {
-  color: #555;
-}
-/* INDUSTRIES SECTION */
-
-.industries {
-  padding: 80px 20px;
-  background: #ffffff;
-  text-align: center;
-}
-
-.industries h2 {
-  font-size: 2em;
-  margin-bottom: 50px;
-}
-
-.industries-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  justify-content: center;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.industries-grid div {
-  background: #f4f6f9;
-  padding: 30px;
-  border-radius: 6px;
-  max-width: 250px;
-  border: 1px solid #e5e5e5;
-  transition: 0.3s;
-}
-
-.industries-grid div:hover {
-  transform: translateY(-5px);
-}
-
-.industries-grid h3 {
-  color: #003366;
-  margin-bottom: 10px;
-}
-/* APPLICATIONS PREVIEW */
-
-.applications-preview {
-  background: #f4f6f9;
-  padding: 80px 20px;
-  text-align: center;
-}
-
-.applications-preview h2 {
-  margin-bottom: 50px;
-  font-size: 2em;
-}
-
-.applications-grid {
-  display: flex;
-  gap: 40px;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.app-card {
-  background: white;
-  border-radius: 6px;
-  overflow: hidden;
-  width: 320px;
-  border: 1px solid #e5e5e5;
-  transition: 0.3s;
-}
-
-.app-card:hover {
-  transform: translateY(-5px);
-}
-
-.app-card img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-
-.app-card h3 {
-  margin: 20px 0 10px 0;
-  color: #003366;
-}
-
-.app-card p {
-  padding: 0 20px 20px 20px;
-}
-/* INDUSTRY TRUST SECTION */
-
-.industry-trust {
-  background: #ffffff;
-  padding: 80px 20px;
-  text-align: center;
-}
-
-.trust-intro {
-  max-width: 800px;
-  margin: 0 auto 50px auto;
-  color: #555;
-}
-
-.trust-grid {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.trust-box {
-  background: #f4f6f9;
-  padding: 30px;
-  border-radius: 6px;
-  border: 1px solid #e5e5e5;
-  max-width: 250px;
-  transition: 0.3s;
-}
-
-.trust-box:hover {
-  transform: translateY(-5px);
-}
-
-.trust-box h3 {
-  color: #003366;
-  margin-bottom: 10px;
 }
