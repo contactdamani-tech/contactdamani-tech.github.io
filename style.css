@@ -48,10 +48,11 @@ body {
 }
 
 .main-nav a {
-  margin-left: 18px;
+  margin-left: 16px;
   text-decoration: none;
   color: #003366;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .main-nav a:hover {
