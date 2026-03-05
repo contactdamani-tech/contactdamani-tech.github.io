@@ -1,7 +1,4 @@
 body {
-  background: yellow;
-}
-body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   line-height: 1.6;
@@ -9,214 +6,7 @@ body {
   background-color: #ffffff;
 }
 
-nav a {
-  text-decoration: none;
-  color: #003366;
-  font-weight: bold;
-  margin-right: 15px;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-h1 {
-  font-size: 2.2em;
-  margin-bottom: 10px;
-}
-
-h2 {
-  font-size: 1.5em;
-  margin-bottom: 20px;
-  color: #444;
-}
-
-h3 {
-  font-size: 1.2em;
-  margin-top: 30px;
-  color: #003366;
-}
-
-p {
-  max-width: 900px;
-}
-header {
-  margin-bottom: 30px;
-}
-
-header h1 {
-  margin-bottom: 5px;
-}
-
-header h2 {
-  font-weight: normal;
-}
-
-header img {
-  height: 80px !important;
-  width: auto;
-}
-
-/* Supprime tout style de lien dans le header */
-header a {
-  text-decoration: none;
-  color: inherit;
-}
-/* Footer Styling */
-
-.site-footer {
-  background-color: #003366;
-  color: #ffffff;
-  margin-top: 60px;
-  padding: 40px 20px 20px 20px;
-}
-
-.footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1100px;
-}
-
-.footer-column {
-  flex: 1;
-  min-width: 250px;
-  margin-bottom: 20px;
-}
-
-.site-footer h3 {
-  margin-bottom: 10px;
-  color: #ffffff;
-}
-
-.site-footer a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.site-footer a:hover {
-  text-decoration: underline;
-}
-
-.footer-bottom {
-  border-top: 1px solid rgba(255,255,255,0.3);
-  margin-top: 20px;
-  padding-top: 10px;
-  font-size: 0.9em;
-}
-/* HERO PREMIUM */
-
-.hero {
-  background: red;
-}
-
-.hero h1 {
-  font-size: 2.8em;
-  margin-bottom: 20px;
-}
-
-.hero p {
-  max-width: 800px;
-  margin: 0 auto 30px auto;
-  font-size: 1.2em;
-}
-
-.cta-button {
-  display: inline-block;
-  background-color: #ffffff;
-  color: #003366;
-  padding: 14px 30px;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: 0.3s;
-}
-
-.cta-button:hover {
-  background-color: #e6e6e6;
-}
-
-/* SOLUTIONS SECTION */
-
-.home-solutions {
-  padding: 80px 20px;
-  background-color: #ffffff;
-}
-
-.home-solutions h2 {
-  text-align: center;
-  margin-bottom: 50px;
-  font-size: 2em;
-}
-
-.solutions-grid {
-  display: flex;
-  gap: 40px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.solution-box {
-  background: #f4f6f9;
-  padding: 35px;
-  width: 400px;
-  border-radius: 6px;
-  transition: 0.3s;
-}
-
-.solution-box:hover {
-  transform: translateY(-5px);
-}
-
-.solution-box h3 {
-  color: #003366;
-  margin-bottom: 15px;
-}
-
-.solution-box a {
-  font-weight: bold;
-  color: #003366;
-  text-decoration: none;
-}
-/* WHY DAMANI SECTION */
-
-.why-damani {
-  background-color: #f4f6f9;
-  padding: 80px 20px;
-  text-align: center;
-}
-
-.why-damani h2 {
-  margin-bottom: 50px;
-  font-size: 2em;
-}
-
-.why-grid {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  flex-wrap: wrap;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.why-grid div {
-  max-width: 300px;
-}
-
-.why-grid h3 {
-  color: #003366;
-  margin-bottom: 15px;
-}
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-.site-header {
-  padding: 30px 0;
-}
-/* ================= HEADER MODERNE ================= */
+/* ================= HEADER ================= */
 
 .site-header {
   background: #ffffff;
@@ -246,53 +36,39 @@ header a {
 .brand-text {
   display: flex;
   flex-direction: column;
-  font-size: 0.9em;
 }
 
 .brand-text strong {
-  font-size: 1.1em;
   color: #003366;
 }
 
-.brand-text span {
-  font-size: 0.85em;
-  color: #666;
+.main-nav {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .main-nav a {
-  margin-left: 20px;
+  margin-left: 18px;
   text-decoration: none;
   color: #003366;
   font-weight: 600;
-  font-size: 0.95em;
 }
 
 .main-nav a:hover {
   color: #000;
 }
-nav {
-  padding: 15px 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-}
-.main-nav {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-}
 
-.main-nav a {
-  margin-left: 18px; /* un peu moins large qu’avant */
-  white-space: nowrap;
-}
-/* ================= HERO PREMIUM V2 ================= */
+/* ================= HERO ================= */
 
 .hero {
-  background: linear-gradient(135deg, #003366 0%, #001f3f 100%);
-  padding: 140px 20px;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("/assets/hero-steel.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 160px 20px;
   text-align: center;
   color: white;
-  position: relative;
 }
 
 .hero-content {
@@ -303,8 +79,6 @@ nav {
 .hero h1 {
   font-size: 3em;
   margin-bottom: 25px;
-  font-weight: 700;
-  letter-spacing: 1px;
 }
 
 .hero p {
@@ -321,14 +95,52 @@ nav {
   font-weight: 700;
   border-radius: 6px;
   text-decoration: none;
-  transition: 0.3s ease;
 }
 
 .cta-button:hover {
   background-color: #e6e6e6;
-  transform: translateY(-2px);
 }
-/* WHY DAMANI CARDS */
+
+/* ================= SOLUTIONS ================= */
+
+.home-solutions {
+  padding: 80px 20px;
+}
+
+.solutions-grid {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.solution-box {
+  background: #f4f6f9;
+  padding: 35px;
+  width: 400px;
+  border-radius: 6px;
+}
+
+.solution-box:hover {
+  transform: translateY(-5px);
+}
+
+/* ================= WHY DAMANI ================= */
+
+.why-damani {
+  background-color: #f4f6f9;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.why-grid {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+}
 
 .why-grid div {
   background: #ffffff;
@@ -342,18 +154,39 @@ nav {
   transform: translateY(-5px);
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
-.footer-column p {
-  margin-bottom: 8px;
+
+/* ================= FOOTER ================= */
+
+.site-footer {
+  background-color: #003366;
+  color: white;
+  margin-top: 60px;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  min-width: 250px;
 }
 
 .footer-column a {
-  opacity: 0.9;
+  color: white;
 }
 
-.footer-column a:hover {
-  opacity: 1;
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.3);
+  margin-top: 20px;
+  padding-top: 10px;
 }
-/* PDF DOWNLOAD BLOCK */
+
+/* ================= PDF BLOCK ================= */
 
 .pdf-download {
   background: #f4f6f9;
@@ -364,14 +197,6 @@ nav {
   text-align: center;
 }
 
-.pdf-download h3 {
-  margin-bottom: 10px;
-}
-
-.pdf-download p {
-  margin-bottom: 20px;
-}
-
 .pdf-button {
   display: inline-block;
   background-color: #003366;
@@ -379,31 +204,18 @@ nav {
   padding: 12px 28px;
   border-radius: 5px;
   text-decoration: none;
-  font-weight: bold;
-  transition: 0.3s;
 }
 
 .pdf-button:hover {
   background-color: #002244;
-}
-/* PDF LIST ALIGNMENT */
-
-.pdf-list {
-  margin-top: 20px;
 }
 
 .pdf-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #ffffff;
   border: 1px solid #e2e6ea;
   padding: 15px 20px;
   border-radius: 5px;
   margin-bottom: 12px;
-}
-
-.pdf-item span {
-  font-weight: 600;
-  color: #003366;
 }
