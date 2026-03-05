@@ -255,3 +255,42 @@ body {
 .stats-grid p {
   color: #555;
 }
+/* INDUSTRIES SECTION */
+
+.industries {
+  padding: 80px 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.industries h2 {
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+.industries-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.industries-grid div {
+  background: #f4f6f9;
+  padding: 30px;
+  border-radius: 6px;
+  max-width: 250px;
+  border: 1px solid #e5e5e5;
+  transition: 0.3s;
+}
+
+.industries-grid div:hover {
+  transform: translateY(-5px);
+}
+
+.industries-grid h3 {
+  color: #003366;
+  margin-bottom: 10px;
+}
