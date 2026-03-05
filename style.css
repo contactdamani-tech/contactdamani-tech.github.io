@@ -343,3 +343,43 @@ body {
 .app-card p {
   padding: 0 20px 20px 20px;
 }
+/* INDUSTRY TRUST SECTION */
+
+.industry-trust {
+  background: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.trust-intro {
+  max-width: 800px;
+  margin: 0 auto 50px auto;
+  color: #555;
+}
+
+.trust-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.trust-box {
+  background: #f4f6f9;
+  padding: 30px;
+  border-radius: 6px;
+  border: 1px solid #e5e5e5;
+  max-width: 250px;
+  transition: 0.3s;
+}
+
+.trust-box:hover {
+  transform: translateY(-5px);
+}
+
+.trust-box h3 {
+  color: #003366;
+  margin-bottom: 10px;
+}
