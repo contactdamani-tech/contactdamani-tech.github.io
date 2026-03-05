@@ -225,3 +225,33 @@ body {
   margin: 0 auto;
   padding: 40px 20px;
 }
+/* INDUSTRIAL STATS SECTION */
+
+.stats {
+  background: #ffffff;
+  padding: 70px 20px;
+}
+
+.stats-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.stats-grid div {
+  flex: 1;
+  min-width: 200px;
+}
+
+.stats-grid h3 {
+  font-size: 2.5em;
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.stats-grid p {
+  color: #555;
+}
