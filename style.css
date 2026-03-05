@@ -393,7 +393,15 @@ body {
 .footer-column a {
   color: white;
 }
+/* PRODUCT IMAGES */
 
+.product-image {
+  width: 100%;
+  max-width: 750px;
+  display: block;
+  margin: 30px auto;
+  border-radius: 6px;
+}
 .footer-bottom {
   border-top: 1px solid rgba(255,255,255,0.3);
   margin-top: 20px;
