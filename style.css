@@ -104,12 +104,7 @@ header a {
 /* HERO PREMIUM */
 
 .hero {
-  background: url("https://contactdamani-tech.github.io/assets/hero-steel.jpg");
-  background-size: cover;
-  background-position: center;
-  padding: 160px 20px;
-  text-align: center;
-  color: white;
+  background: red;
 }
 
 .hero h1 {
