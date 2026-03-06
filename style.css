@@ -20,8 +20,14 @@ body {
   background: #ffffff;
   border-bottom: 1px solid #e5e5e5;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-}
 
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.site-header {
+  transition: box-shadow 0.3s ease;
+}
 .header-inner {
   max-width: 1200px;
   margin: 0 auto;
