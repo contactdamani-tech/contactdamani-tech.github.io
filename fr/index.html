@@ -20,7 +20,31 @@
 <link rel="stylesheet" href="/style.css">
 
 </head>
+<script>
 
+const btn = document.getElementById("lang-switch");
+
+if(btn){
+
+btn.addEventListener("click", function(e){
+
+e.preventDefault();
+
+let path = window.location.pathname;
+
+if(path.startsWith("/fr/")){
+window.location.href = path.replace("/fr","");
+}
+
+else{
+window.location.href = "/fr" + path;
+}
+
+});
+
+}
+
+</script>
 <body>
 
 
