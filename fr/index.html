@@ -2,6 +2,7 @@
 <html lang="fr">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="google-site-verification" content="3yLx8zY25hI622fWHEjkAXguRIZJFd1kEDnIqtdhh4A"/>
 
@@ -20,34 +21,8 @@
 <link rel="stylesheet" href="/style.css">
 
 </head>
-<script>
 
-const btn = document.getElementById("lang-switch");
-
-if(btn){
-
-btn.addEventListener("click", function(e){
-
-e.preventDefault();
-
-let path = window.location.pathname;
-
-if(path.startsWith("/fr/")){
-window.location.href = path.replace("/fr","");
-}
-
-else{
-window.location.href = "/fr" + path;
-}
-
-});
-
-}
-
-</script>
 <body>
-
-
 
 <header class="site-header">
 
@@ -77,10 +52,11 @@ class="site-logo">
 <a href="/fr/solutions.html">Solutions</a>
 <a href="/fr/news.html">Actualités</a>
 <a href="/fr/contact.html">Contact</a>
+
 <a href="https://www.linkedin.com/in/RP-damani-group/" target="_blank">LinkedIn</a>
+
 <a href="#" id="lang-switch">
 <img src="/assets/flag-en.jpg" alt="English" style="height:20px;">
-</a>
 </a>
 
 </nav>
@@ -88,7 +64,6 @@ class="site-logo">
 </div>
 
 </header>
-
 
 
 <section class="hero">
@@ -108,7 +83,6 @@ Découvrir nos solutions
 </div>
 
 </section>
-
 
 
 <section class="stats">
@@ -133,7 +107,6 @@ Découvrir nos solutions
 </div>
 
 </section>
-
 
 
 <section class="home-solutions">
@@ -161,7 +134,6 @@ Découvrir nos solutions
 </div>
 
 </section>
-
 
 
 <section class="why-damani">
@@ -192,7 +164,6 @@ Découvrir nos solutions
 </div>
 
 </section>
-
 
 
 <section class="industries">
@@ -226,13 +197,11 @@ Découvrir nos solutions
 </section>
 
 
-
 <section class="applications-preview">
 
 <h2>Applications industrielles</h2>
 
 <div class="applications-grid">
-
 
 <a href="/fr/applications.html" class="app-card">
 <img src="/assets/steel-plant.jpg" alt="Capteurs pour aciéries">
@@ -240,13 +209,11 @@ Découvrir nos solutions
 <p>Capteurs de positionnement et d’identification pour les environnements sévères de la sidérurgie.</p>
 </a>
 
-
 <a href="/fr/applications.html" class="app-card">
 <img src="/assets/continuous-casting.jpg" alt="Technologie pour coulée continue">
 <h3>Coulée continue</h3>
 <p>Systèmes de positionnement de précision pour segments et machines de coulée continue.</p>
 </a>
-
 
 <a href="/fr/applications.html" class="app-card">
 <img src="/assets/coke-oven.jpg" alt="Capteurs pour cokeries">
@@ -254,11 +221,9 @@ Découvrir nos solutions
 <p>Capteurs industriels robustes pour les machines et équipements de cokerie.</p>
 </a>
 
-
 </div>
 
 </section>
-
 
 
 <section class="about-preview">
@@ -284,7 +249,6 @@ Nos technologies fonctionnent dans des environnements à haute température, pou
 </div>
 
 </section>
-
 
 
 <section class="industry-trust">
@@ -327,7 +291,6 @@ les constructeurs de machines et les intégrateurs industriels.
 </section>
 
 
-
 <footer class="site-footer">
 
 <div class="footer-container">
@@ -345,8 +308,8 @@ Email : <a href="mailto:contact@damani-group.fr">contact@damani-group.fr</a>
 </p>
 
 <p>
-<a href="https://www.linkedin.com/in/RP-damani-group/" target="_blank">LinkedIn</a>
-Retrouvez DAMANI Group sur LinkedIn
+<a href="https://www.linkedin.com/in/RP-damani-group/" target="_blank">
+LinkedIn – Retrouvez DAMANI Group
 </a>
 </p>
 
@@ -363,11 +326,12 @@ Retrouvez DAMANI Group sur LinkedIn
 </div>
 
 
- <div class="footer-column">
+<div class="footer-column">
 
 <img src="/assets/logo-damani-white.png"
 alt="Damani Group"
 class="footer-logo">
+
 <p><a href="/fr/">Accueil</a></p>
 <p><a href="/fr/about.html">À propos</a></p>
 <p><a href="/fr/technology.html">Technologie</a></p>
@@ -387,6 +351,35 @@ class="footer-logo">
 
 </footer>
 
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function(){
+
+const btn = document.getElementById("lang-switch");
+
+if(btn){
+
+btn.addEventListener("click", function(e){
+
+e.preventDefault();
+
+let path = window.location.pathname;
+
+if(path.startsWith("/fr/")){
+window.location.href = path.replace("/fr/","");
+}
+else{
+window.location.href = "/fr/" + path;
+}
+
+});
+
+}
+
+});
+
+</script>
 
 </body>
 
