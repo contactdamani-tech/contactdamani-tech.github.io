@@ -419,3 +419,32 @@ body {
 height:48px;
 margin-bottom:12px;
 }
+/* NEWS SECTION */
+
+.news-list {
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+.news-item {
+  background: #f4f6f9;
+  padding: 30px;
+  border-radius: 6px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 25px;
+  transition: 0.3s;
+}
+
+.news-item:hover {
+  transform: translateY(-3px);
+}
+
+.news-item h2 {
+  margin-bottom: 10px;
+}
+
+.news-item a {
+  color: #003366;
+  font-weight: 600;
+  text-decoration: none;
+}
