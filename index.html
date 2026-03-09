@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="google-site-verification" content="3yLx8zY25hI622fWHEjkAXguRIZJFd1kEDnIqtdhh4A"/>
 
@@ -9,42 +10,18 @@
 
 <meta name="description" content="DAMANI Group designs and manufactures industrial sensors for positioning machines in steel plants, continuous casting lines, coke oven plants and heavy industry.">
 
-<link rel="canonical" href="https://contactdamani-tech.github.io/"/>
+<link rel="canonical" href="https://contactdamani-tech.github.io/">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="alternate" hreflang="en" href="https://contactdamani-tech.github.io/"/>
-<link rel="alternate" hreflang="fr" href="https://contactdamani-tech.github.io/fr/"/>
-<link rel="alternate" hreflang="x-default" href="https://contactdamani-tech.github.io/"/>
+<link rel="alternate" hreflang="en" href="https://contactdamani-tech.github.io/">
+<link rel="alternate" hreflang="fr" href="https://contactdamani-tech.github.io/fr/">
+<link rel="alternate" hreflang="x-default" href="https://contactdamani-tech.github.io/">
 
 <link rel="stylesheet" href="/style.css">
+
 </head>
 
-<script>
-
-const btn = document.getElementById("lang-switch");
-
-if(btn){
-
-btn.addEventListener("click", function(e){
-
-e.preventDefault();
-
-let path = window.location.pathname;
-
-if(path.startsWith("/fr/")){
-window.location.href = path.replace("/fr","");
-}
-
-else{
-window.location.href = "/fr" + path;
-}
-
-});
-
-}
-
-</script>
 <body>
 
 
@@ -68,6 +45,7 @@ class="site-logo">
 </div>
 
 <nav class="main-nav">
+
 <a href="/">Home</a>
 <a href="/about.html">About</a>
 <a href="/technology.html">Technology</a>
@@ -75,11 +53,13 @@ class="site-logo">
 <a href="/solutions.html">Solutions</a>
 <a href="/news.html">News</a>
 <a href="/contact.html">Contact</a>
+
 <a href="https://www.linkedin.com/in/RP-damani-group/" target="_blank">LinkedIn</a>
-<a href="/fr/">
+
 <a href="#" id="lang-switch">
 <img src="/assets/flag-fr.jpg" alt="Français" style="height:20px;">
 </a>
+
 </nav>
 
 </div>
@@ -230,13 +210,11 @@ Explore Our Solutions
 
 <div class="applications-grid">
 
-
 <a href="/applications.html" class="app-card">
 <img src="/assets/steel-plant.jpg" alt="Steel plant sensors">
 <h3>Steel Plants</h3>
 <p>Positioning and identification sensors engineered for harsh steel production environments.</p>
 </a>
-
 
 <a href="/applications.html" class="app-card">
 <img src="/assets/continuous-casting.jpg" alt="Continuous casting sensor technology">
@@ -244,13 +222,11 @@ Explore Our Solutions
 <p>Precision positioning systems designed for continuous casting segments and heavy machinery.</p>
 </a>
 
-
 <a href="/applications.html" class="app-card">
 <img src="/assets/coke-oven.jpg" alt="Coke oven plant automation sensors">
 <h3>Coke Oven Plants</h3>
 <p>Reliable industrial sensors for coke oven equipment and machine positioning.</p>
 </a>
-
 
 </div>
 
@@ -271,7 +247,7 @@ DAMANI Group designs and manufactures high-reliability position and identificati
 <h3>Industrial expertise for harsh environments</h3>
 
 <p>
-DAMANI Group designs and manufactures industrial sensors dedicated to machine positioning and traceability in steel plants, continuous casting lines and coke oven plants.
+DAMANI Group develops industrial sensors for machine positioning and traceability in steel plants, continuous casting lines and coke oven plants.
 </p>
 
 <p>
@@ -282,6 +258,8 @@ Our solutions operate in high temperatures, dust, vibrations and demanding indus
 
 </section>
 
+
+
 <section class="industry-trust">
 
 <div class="container">
@@ -289,8 +267,7 @@ Our solutions operate in high temperatures, dust, vibrations and demanding indus
 <h2>Trusted by Industry Professionals</h2>
 
 <p class="trust-intro">
-DAMANI Group technologies are used by steel producers, machine builders
-and industrial integrators operating in harsh environments.
+DAMANI Group technologies are used by steel producers, machine builders and industrial integrators operating in harsh environments.
 </p>
 
 <div class="trust-grid">
@@ -321,6 +298,8 @@ and industrial integrators operating in harsh environments.
 
 </section>
 
+
+
 <footer class="site-footer">
 
 <div class="footer-container">
@@ -338,8 +317,8 @@ Email: <a href="mailto:contact@damani-group.fr">contact@damani-group.fr</a>
 </p>
 
 <p>
-<a href="https://www.linkedin.com/in/RP-damani-group/" target="_blank">LinkedIn</a>
-Follow DAMANI Group on LinkedIn
+<a href="https://www.linkedin.com/in/RP-damani-group/" target="_blank">
+LinkedIn – Follow DAMANI Group
 </a>
 </p>
 
@@ -362,7 +341,6 @@ Follow DAMANI Group on LinkedIn
 alt="Damani Group"
 class="footer-logo">
 
-
 <p><a href="/">Home</a></p>
 <p><a href="/about.html">About</a></p>
 <p><a href="/technology.html">Technology</a></p>
@@ -372,16 +350,44 @@ class="footer-logo">
 </div>
 
 </div>
- 
+
 
 <div class="footer-bottom">
-
 <p>© 2026 DAMANI Group — Industrial sensor technologies</p>
-
 </div>
 
 </footer>
 
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function(){
+
+const btn = document.getElementById("lang-switch");
+
+if(btn){
+
+btn.addEventListener("click", function(e){
+
+e.preventDefault();
+
+let path = window.location.pathname;
+
+if(path.startsWith("/fr/")){
+window.location.href = path.replace("/fr/","");
+}
+else{
+window.location.href = "/fr/" + path;
+}
+
+});
+
+}
+
+});
+
+</script>
 
 
 </body>
