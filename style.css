@@ -500,3 +500,68 @@ padding: 100px 20px;
 }
 
 }
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width: 900px) {
+
+/* HEADER */
+
+.header-inner {
+flex-direction: column;
+align-items: flex-start;
+}
+
+/* MENU */
+
+.main-nav {
+flex-wrap: wrap;
+margin-top: 10px;
+}
+
+.main-nav a {
+margin: 6px 10px;
+font-size: 0.95em;
+}
+
+/* HERO */
+
+.hero {
+padding: 100px 20px;
+}
+
+.hero h1 {
+font-size: 2em;
+}
+
+/* GRIDS */
+
+.solutions-grid,
+.why-grid,
+.industries-grid,
+.applications-grid,
+.trust-grid,
+.stats-grid {
+
+flex-direction: column;
+align-items: center;
+
+}
+
+/* CARDS */
+
+.solution-box,
+.trust-box,
+.app-card {
+
+width: 100%;
+max-width: 500px;
+
+}
+
+/* CONTAINER */
+
+.container {
+padding: 20px;
+}
+
+}
