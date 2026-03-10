@@ -1,7 +1,7 @@
 /* ================= GLOBAL ================= */
 
-body {
-font-family: Arial, Helvetica, sans-serif;
+body{
+font-family:Arial, Helvetica, sans-serif;
 margin:0;
 line-height:1.6;
 color:#222;
@@ -14,6 +14,23 @@ margin:0 auto;
 padding:0 20px;
 }
 
+/* ================= TITLES ================= */
+
+h2{
+position:relative;
+display:inline-block;
+margin-bottom:35px;
+}
+
+h2::after{
+content:"";
+display:block;
+width:60px;
+height:3px;
+background:#359935;
+margin-top:8px;
+}
+
 /* ================= HEADER ================= */
 
 .site-header{
@@ -24,12 +41,14 @@ position:sticky;
 top:0;
 z-index:1000;
 }
+
 .site-header::after{
 content:"";
 display:block;
 height:3px;
 background:linear-gradient(90deg,#8cff8c,#2f8f2f,#8cff8c);
 }
+
 .header-inner{
 max-width:1200px;
 margin:0 auto;
@@ -96,7 +115,7 @@ linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),
 url("/assets/hero-steel.jpg");
 background-size:cover;
 background-position:center;
-padding:100px 20px;
+padding:120px 20px;
 text-align:center;
 color:white;
 }
@@ -109,6 +128,7 @@ margin:0 auto;
 .hero h1{
 font-size:2.8em;
 margin-bottom:20px;
+letter-spacing:1px;
 }
 
 .hero p{
@@ -135,8 +155,8 @@ background:#e6e6e6;
 /* ================= STATS ================= */
 
 .stats{
-padding:60px 20px;
-background:#ffffff;
+padding:45px 20px;
+background:#f8fafc;
 }
 
 .stats-grid{
@@ -166,17 +186,14 @@ color:#555;
 /* ================= SOLUTIONS ================= */
 
 .home-solutions{
-padding:60px 20px;
-}
-
-.home-solutions h2{
+padding:45px 20px;
+background:#ffffff;
 text-align:center;
-margin-bottom:40px;
 }
 
 .solutions-grid{
 display:flex;
-gap:35px;
+gap:30px;
 justify-content:center;
 flex-wrap:wrap;
 }
@@ -187,25 +204,27 @@ padding:30px;
 width:380px;
 border-radius:6px;
 border:1px solid #e5e5e5;
+box-shadow:0 4px 12px rgba(0,0,0,0.05);
 transition:0.25s;
 }
 
 .solution-box:hover{
-transform:translateY(-5px);
+transform:translateY(-6px);
+box-shadow:0 8px 25px rgba(0,0,0,0.12);
 }
 
 /* ================= WHY DAMANI ================= */
 
 .why-damani{
-background:#f4f6f9;
-padding:60px 20px;
+background:#f8fafc;
+padding:45px 20px;
 text-align:center;
 }
 
 .why-grid{
 display:flex;
 justify-content:center;
-gap:40px;
+gap:30px;
 flex-wrap:wrap;
 max-width:1100px;
 margin:0 auto;
@@ -217,30 +236,27 @@ padding:25px;
 border-radius:6px;
 border:1px solid #e5e5e5;
 max-width:300px;
+box-shadow:0 4px 12px rgba(0,0,0,0.05);
 transition:0.25s;
 }
 
 .why-grid div:hover{
-transform:translateY(-5px);
-box-shadow:0 6px 20px rgba(0,0,0,0.08);
+transform:translateY(-6px);
+box-shadow:0 8px 25px rgba(0,0,0,0.12);
 }
 
 /* ================= INDUSTRIES ================= */
 
 .industries{
-padding:60px 20px;
+padding:45px 20px;
 background:#ffffff;
 text-align:center;
-}
-
-.industries h2{
-margin-bottom:40px;
 }
 
 .industries-grid{
 display:flex;
 flex-wrap:wrap;
-gap:35px;
+gap:30px;
 justify-content:center;
 max-width:1100px;
 margin:0 auto;
@@ -252,11 +268,13 @@ padding:25px;
 border-radius:6px;
 max-width:250px;
 border:1px solid #e5e5e5;
+box-shadow:0 4px 12px rgba(0,0,0,0.05);
 transition:0.25s;
 }
 
 .industries-grid div:hover{
-transform:translateY(-5px);
+transform:translateY(-6px);
+box-shadow:0 8px 25px rgba(0,0,0,0.12);
 }
 
 .industries-grid h3{
@@ -267,14 +285,14 @@ margin-bottom:10px;
 /* ================= APPLICATIONS ================= */
 
 .applications-preview{
-background:#f4f6f9;
-padding:60px 20px;
+background:#f8fafc;
+padding:45px 20px;
 text-align:center;
 }
 
 .applications-grid{
 display:flex;
-gap:35px;
+gap:30px;
 justify-content:center;
 flex-wrap:wrap;
 max-width:1100px;
@@ -287,11 +305,13 @@ border-radius:6px;
 overflow:hidden;
 width:320px;
 border:1px solid #e5e5e5;
+box-shadow:0 4px 12px rgba(0,0,0,0.05);
 transition:0.25s;
 }
 
 .app-card:hover{
-transform:translateY(-5px);
+transform:translateY(-6px);
+box-shadow:0 8px 25px rgba(0,0,0,0.12);
 }
 
 .app-card img{
@@ -313,20 +333,20 @@ padding:0 20px 20px 20px;
 
 .industry-trust{
 background:#ffffff;
-padding:60px 20px;
+padding:45px 20px;
 text-align:center;
 }
 
 .trust-intro{
 max-width:800px;
-margin:0 auto 40px auto;
+margin:0 auto 35px auto;
 color:#555;
 }
 
 .trust-grid{
 display:flex;
 justify-content:center;
-gap:35px;
+gap:30px;
 flex-wrap:wrap;
 max-width:1100px;
 margin:0 auto;
@@ -338,11 +358,13 @@ padding:25px;
 border-radius:6px;
 border:1px solid #e5e5e5;
 max-width:250px;
+box-shadow:0 4px 12px rgba(0,0,0,0.05);
 transition:0.25s;
 }
 
 .trust-box:hover{
-transform:translateY(-5px);
+transform:translateY(-6px);
+box-shadow:0 8px 25px rgba(0,0,0,0.12);
 }
 
 .trust-box h3{
@@ -496,7 +518,4 @@ flex-direction:column;
 gap:30px;
 }
 
-}
-.main-nav a{
-white-space:nowrap;
 }
