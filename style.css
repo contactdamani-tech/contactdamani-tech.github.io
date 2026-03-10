@@ -24,7 +24,12 @@ position:sticky;
 top:0;
 z-index:1000;
 }
-
+.site-header::after{
+content:"";
+display:block;
+height:3px;
+background:linear-gradient(90deg,#8cff8c,#2f8f2f,#8cff8c);
+}
 .header-inner{
 max-width:1200px;
 margin:0 auto;
