@@ -1,0 +1,212 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+
+<title>Coke Oven Machine Positioning Sensor | VEROLINE®PI</title>
+
+<meta name="description" content="VEROLINE PI industrial positioning sensor designed for coke oven machines operating in harsh environments in steel plants.">
+
+<link rel="canonical" href="https://contactdamani-tech.github.io/veroline-coke-oven.html">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+<div class="header-inner">
+
+<div class="logo-block">
+<a href="/">
+<img src="/assets/logo-damani-white.png" class="site-logo">
+</a>
+
+<div class="brand-text">
+<strong>DAMANI Group</strong>
+<span>Industrial Positioning & Identification Sensors</span>
+</div>
+
+</div>
+
+<nav class="main-nav">
+
+<a href="/">Home</a>
+<a href="/about.html">About</a>
+<a href="/technology.html">Technology</a>
+<a href="/applications.html">Applications</a>
+<a href="/solutions.html">Solutions</a>
+<a href="/contact.html">Contact</a>
+
+</nav>
+
+</div>
+
+</header>
+
+
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Coke Oven Machine Positioning</h1>
+
+<p>
+Reliable positioning and identification of coke oven machinery using VEROLINE®PI industrial sensors.
+</p>
+
+</div>
+
+</section>
+
+
+
+<section class="container">
+
+<h2>Coke Oven Machines in Steel Plants</h2>
+
+<p>
+Coke oven plants are essential installations in integrated steel mills. Several specialized machines operate along the battery to perform different operations such as charging, door handling and coke pushing.
+</p>
+
+<p>
+Typical machines include:
+</p>
+
+<ul>
+
+<li>Charging cars</li>
+<li>Pusher machines</li>
+<li>Door handling machines</li>
+<li>Quenching cars</li>
+
+</ul>
+
+</section>
+
+
+
+<section class="container">
+
+<h2>Positioning Challenges</h2>
+
+<p>
+These machines operate in extremely harsh environments with high temperatures, dust, vibrations and aggressive gases.
+</p>
+
+<p>
+Accurate positioning is essential for:
+</p>
+
+<ul>
+
+<li>Precise alignment with oven chambers</li>
+<li>Automation of charging and pushing operations</li>
+<li>Safe operation of heavy machinery</li>
+
+</ul>
+
+</section>
+
+
+
+<section class="container">
+
+<h2>VEROLINE®PI Positioning Solution</h2>
+
+<p>
+VEROLINE®PI sensors provide reliable industrial positioning even in the severe operating conditions of coke oven plants.
+</p>
+
+<ul>
+
+<li>High temperature resistance</li>
+<li>Robust design for vibration and shocks</li>
+<li>Reliable detection of positioning targets</li>
+<li>Integration with PLC and automation systems</li>
+
+</ul>
+
+</section>
+
+
+
+<section class="container">
+
+<h2>Typical Applications</h2>
+
+<ul>
+
+<li>Pusher machine positioning</li>
+<li>Charging car positioning</li>
+<li>Door machine alignment</li>
+<li>Heavy industrial machinery automation</li>
+
+</ul>
+
+</section>
+
+
+
+<section class="container">
+
+<h2>Industrial Benefits</h2>
+
+<ul>
+
+<li>Improved operational reliability</li>
+<li>Reduced maintenance</li>
+<li>Accurate positioning in harsh environments</li>
+<li>Integration with industrial automation systems</li>
+
+</ul>
+
+</section>
+
+
+
+<section class="container">
+
+<h2>Discuss Your Coke Oven Application</h2>
+
+<p>
+DAMANI Group supports steel producers and machine builders in implementing reliable positioning solutions for coke oven machinery.
+</p>
+
+<a href="/contact.html" class="cta-button">
+Contact DAMANI Group
+</a>
+
+</section>
+
+
+
+<footer class="site-footer">
+
+<div class="footer-container">
+
+<div class="footer-column">
+<h3>DAMANI Group</h3>
+<p>Industrial Positioning & Identification Sensors</p>
+</div>
+
+<div class="footer-column">
+<p><a href="/veroline.html">VEROLINE®PI</a></p>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<p>© 2026 DAMANI Group</p>
+</div>
+
+</footer>
+
+</body>
+</html>
