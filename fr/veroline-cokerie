@@ -1,0 +1,170 @@
+<!DOCTYPE html> 
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+
+<title>Capteur de positionnement pour machines de cokerie | VEROLINE®PI</title>
+
+<meta name="description" content="Capteur industriel VEROLINE PI pour le positionnement des machines de cokerie dans les environnements sévères des aciéries.">
+
+<link rel="canonical" href="https://contactdamani-tech.github.io/fr/veroline-cokerie.html">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+<div class="header-inner">
+
+<div class="logo-block">
+
+<a href="/fr/">
+<img src="/assets/logo-damani-white.png" class="site-logo">
+</a>
+
+<div class="brand-text">
+<strong>DAMANI Group</strong>
+<span>Capteurs industriels de positionnement et d’identification</span>
+</div>
+
+</div>
+
+<nav class="main-nav">
+
+<a href="/fr/">Accueil</a>
+<a href="/fr/about.html">Entreprise</a>
+<a href="/fr/technology.html">Technologie</a>
+<a href="/fr/applications.html">Applications</a>
+<a href="/fr/solutions.html">Solutions</a>
+<a href="/fr/contact.html">Contact</a>
+
+</nav>
+
+</div>
+
+</header>
+
+
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Positionnement des machines de cokerie</h1>
+
+<p>
+Positionnement fiable des machines de cokerie grâce au capteur industriel VEROLINE®PI.
+</p>
+
+</div>
+
+</section>
+
+
+
+<section class="container">
+
+<h2>Les machines de cokerie dans les aciéries</h2>
+
+<p>
+Les batteries de cokerie utilisent plusieurs machines spécialisées pour effectuer les opérations de chargement, d’ouverture des portes et d’extraction du coke.
+</p>
+
+<ul>
+
+<li>Enfourneuse</li>
+<li>Pousseuse</li>
+<li>Machine à portes</li>
+<li>Wagon de trempe</li>
+
+</ul>
+
+</section>
+
+
+
+<section class="container">
+
+<h2>Défis de positionnement</h2>
+
+<p>
+Les machines de cokerie fonctionnent dans des environnements très sévères :
+</p>
+
+<ul>
+
+<li>Températures élevées</li>
+<li>Poussières et gaz corrosifs</li>
+<li>Vibrations importantes</li>
+
+</ul>
+
+<p>
+Le positionnement précis est essentiel pour assurer l’alignement avec les chambres de four et automatiser les opérations.
+</p>
+
+</section>
+
+
+
+<section class="container">
+
+<h2>Solution VEROLINE®PI</h2>
+
+<ul>
+
+<li>Capteur robuste pour environnements sévères</li>
+<li>Détection fiable des cibles de positionnement</li>
+<li>Intégration avec les automates industriels</li>
+<li>Conçu pour les machines lourdes</li>
+
+</ul>
+
+</section>
+
+
+
+<section class="container">
+
+<h2>Applications typiques</h2>
+
+<ul>
+
+<li>Positionnement des enfourneuses</li>
+<li>Positionnement des pousseuses</li>
+<li>Alignement des machines à portes</li>
+
+</ul>
+
+</section>
+
+
+
+<section class="container">
+
+<h2>Discuter de votre application</h2>
+
+<a href="/fr/contact.html" class="cta-button">
+Contacter DAMANI Group
+</a>
+
+</section>
+
+
+
+<footer class="site-footer">
+
+<div class="footer-bottom">
+<p>© 2026 DAMANI Group</p>
+</div>
+
+</footer>
+
+</body>
+</html>
