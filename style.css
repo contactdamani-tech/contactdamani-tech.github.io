@@ -565,3 +565,42 @@ padding: 20px;
 }
 
 }
+/* FOOTER MOBILE */
+
+@media (max-width:900px){
+
+.footer-container{
+flex-direction:column;
+gap:30px;
+}
+
+.footer-column{
+width:100%;
+}
+
+.footer-logo{
+margin-bottom:10px;
+}
+
+}
+/* MOBILE CARDS */
+
+@media (max-width:900px){
+
+.solutions-grid,
+.applications-grid,
+.industries-grid,
+.why-grid,
+.trust-grid{
+flex-direction:column;
+align-items:center;
+}
+
+.solution-box,
+.app-card,
+.trust-box{
+width:100%;
+max-width:500px;
+}
+
+}
