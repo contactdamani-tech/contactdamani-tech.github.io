@@ -497,3 +497,6 @@ gap:30px;
 }
 
 }
+.main-nav a{
+white-space:nowrap;
+}
