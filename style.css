@@ -598,3 +598,43 @@ border-radius:6px;
 padding:10px;
 background:#fafafa;
 }
+.application-grid{
+display:flex;
+align-items:center;
+gap:40px;
+max-width:1100px;
+margin:40px auto;
+}
+
+.application-grid.reverse{
+flex-direction:row-reverse;
+}
+
+.application-image img{
+width:100%;
+max-width:420px;
+border-radius:6px;
+}
+
+.application-text{
+flex:1;
+font-size:17px;
+line-height:1.6;
+}
+
+@media (max-width:900px){
+
+.application-grid{
+flex-direction:column;
+text-align:center;
+}
+
+.application-grid.reverse{
+flex-direction:column;
+}
+
+.application-image img{
+max-width:100%;
+}
+
+}
