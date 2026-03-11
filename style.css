@@ -655,7 +655,7 @@ transform:translateX(-50%);
 .hero-solutions{
 background-image:
 linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),
-url("/assets/loco_gand.jpg");
+url("/assets/loco-gand.jpg");
 background-size:cover;
 background-position:center;
 }
