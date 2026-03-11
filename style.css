@@ -102,11 +102,6 @@ transition:0.2s;
 color:#e6ffe6;
 }
 
-.main-nav img{
-margin-left:10px;
-vertical-align:middle;
-}
-
 /* ================= HERO ================= */
 
 .hero{
@@ -152,7 +147,175 @@ transition:0.25s;
 background:#e6e6e6;
 }
 
-/* ================= APPLICATION BLOCKS ================= */
+/* ================= STATS ================= */
+
+.stats{
+padding:45px 20px;
+background:#f8fafc;
+}
+
+.stats-grid{
+max-width:1000px;
+margin:0 auto;
+display:flex;
+justify-content:space-between;
+text-align:center;
+flex-wrap:wrap;
+}
+
+.stats-grid div{
+flex:1;
+min-width:200px;
+}
+
+.stats-grid h3{
+font-size:2.2em;
+color:#003366;
+margin-bottom:10px;
+}
+
+/* ================= SOLUTIONS ================= */
+
+.home-solutions{
+padding:45px 20px;
+text-align:center;
+}
+
+.solutions-grid{
+display:flex;
+gap:30px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.solution-box{
+background:#f4f6f9;
+padding:30px;
+width:380px;
+border-radius:6px;
+border:1px solid #e5e5e5;
+box-shadow:0 4px 12px rgba(0,0,0,0.05);
+transition:0.25s;
+}
+
+.solution-box:hover{
+transform:translateY(-6px);
+box-shadow:0 8px 25px rgba(0,0,0,0.12);
+}
+
+/* ================= WHY DAMANI ================= */
+
+.why-damani{
+background:#f8fafc;
+padding:45px 20px;
+text-align:center;
+}
+
+.why-grid{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+max-width:1100px;
+margin:0 auto;
+}
+
+.why-grid div{
+background:white;
+padding:25px;
+border-radius:6px;
+border:1px solid #e5e5e5;
+max-width:300px;
+box-shadow:0 4px 12px rgba(0,0,0,0.05);
+transition:0.25s;
+}
+
+.why-grid div:hover{
+transform:translateY(-6px);
+box-shadow:0 8px 25px rgba(0,0,0,0.12);
+}
+
+/* ================= INDUSTRIES ================= */
+
+.industries{
+padding:45px 20px;
+text-align:center;
+}
+
+.industries-grid{
+display:flex;
+flex-wrap:wrap;
+gap:30px;
+justify-content:center;
+max-width:1100px;
+margin:0 auto;
+}
+
+.industries-grid div{
+background:#f4f6f9;
+padding:25px;
+border-radius:6px;
+max-width:250px;
+border:1px solid #e5e5e5;
+box-shadow:0 4px 12px rgba(0,0,0,0.05);
+transition:0.25s;
+}
+
+/* ================= HOME APPLICATION CARDS ================= */
+
+.applications-preview{
+background:#f8fafc;
+padding:45px 20px;
+text-align:center;
+}
+
+.applications-grid{
+display:flex;
+gap:30px;
+justify-content:center;
+flex-wrap:wrap;
+max-width:1100px;
+margin:0 auto;
+}
+
+.home-app-card{
+background:white;
+border-radius:6px;
+overflow:hidden;
+width:320px;
+border:1px solid #e5e5e5;
+box-shadow:0 4px 12px rgba(0,0,0,0.05);
+transition:0.25s;
+text-align:center;
+}
+
+.home-app-card a{
+text-decoration:none;
+color:#222;
+display:block;
+}
+
+.home-app-card:hover{
+transform:translateY(-6px);
+box-shadow:0 8px 25px rgba(0,0,0,0.12);
+}
+
+.home-app-card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.home-app-card h3{
+margin:20px 0 10px 0;
+color:#003366;
+}
+
+.home-app-card p{
+padding:0 20px 20px 20px;
+}
+
+/* ================= APPLICATION PAGE BLOCKS ================= */
 
 .application-block{
 padding:60px 20px;
@@ -174,62 +337,12 @@ flex-direction:row-reverse;
 width:100%;
 max-width:480px;
 border-radius:6px;
-box-shadow:0 6px 20px rgba(0,0,0,0.1);
 }
 
 .application-text{
 flex:1;
 font-size:17px;
 line-height:1.7;
-}
-
-/* ================= APPLICATION CARDS ================= */
-
-.applications-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:30px;
-max-width:1200px;
-margin:60px auto;
-padding:0 20px;
-}
-
-.app-card{
-position:relative;
-display:block;
-overflow:hidden;
-border-radius:8px;
-}
-
-.app-card img{
-width:100%;
-height:260px;
-object-fit:cover;
-transition:transform 0.4s;
-}
-
-.app-card:hover img{
-transform:scale(1.05);
-}
-
-.app-overlay{
-position:absolute;
-bottom:0;
-left:0;
-right:0;
-padding:25px;
-background:linear-gradient(transparent, rgba(0,0,0,0.8));
-color:white;
-}
-
-.app-overlay h2{
-margin:0 0 10px 0;
-font-size:22px;
-}
-
-.app-overlay p{
-margin:0;
-font-size:15px;
 }
 
 /* ================= FOOTER ================= */
@@ -288,12 +401,27 @@ margin:6px 8px;
 font-size:14px;
 }
 
+.hero{
+padding:80px 20px;
+}
+
 .hero h1{
 font-size:2em;
 }
 
-.hero{
-padding:80px 20px;
+.solutions-grid,
+.why-grid,
+.industries-grid,
+.applications-grid,
+.stats-grid{
+flex-direction:column;
+align-items:center;
+}
+
+.solution-box,
+.home-app-card{
+width:100%;
+max-width:500px;
 }
 
 .application-grid{
@@ -303,10 +431,6 @@ text-align:center;
 
 .application-grid.reverse{
 flex-direction:column;
-}
-
-.application-image img{
-max-width:100%;
 }
 
 .footer-container{
