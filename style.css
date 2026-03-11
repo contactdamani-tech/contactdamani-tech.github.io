@@ -524,3 +524,37 @@ gap:30px;
 }
 
 }
+/* ================= PARTNERS CARDS IMPROVEMENT ================= */
+
+.partner-card img{
+width:160px;
+display:block;
+margin:0 auto 15px auto;
+filter:grayscale(100%);
+transition:0.3s ease;
+}
+
+.partner-card:hover img{
+filter:grayscale(0%);
+transform:scale(1.05);
+}
+
+.partner-card h4{
+font-size:18px;
+margin-bottom:10px;
+color:#003366;
+}
+
+.partner-card p{
+font-size:14px;
+line-height:1.5;
+margin-bottom:10px;
+}
+
+.partners-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:35px;
+max-width:1100px;
+margin:40px auto;
+}
