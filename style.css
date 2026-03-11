@@ -680,3 +680,59 @@ margin-bottom:25px;
 .page-solutions .application-grid{
 margin:20px auto;
 }
+/* ================= SOLUTIONS PAGE COMPACT ================= */
+
+.page-solutions .application-block{
+padding:30px 20px;
+}
+
+.page-solutions .industries{
+padding:30px 20px;
+}
+
+.page-solutions .references{
+padding:35px 20px;
+}
+
+.page-solutions .application-grid{
+gap:35px;
+margin:10px auto;
+}
+
+.page-solutions h2{
+margin-bottom:18px;
+}
+/* ================= MOBILE SOLUTIONS LAYOUT ================= */
+
+@media (max-width:900px){
+
+.page-solutions .application-grid{
+flex-direction:column;
+text-align:center;
+gap:20px;
+}
+
+.page-solutions .application-image img{
+max-width:100%;
+height:auto;
+border-radius:6px;
+}
+
+.page-solutions .application-text{
+font-size:16px;
+line-height:1.6;
+}
+
+.page-solutions .application-text p{
+max-width:95%;
+margin:auto;
+}
+
+.page-solutions .cta-button{
+margin-top:10px;
+}
+
+}
+.page-solutions .application-image img{
+max-width:420px;
+}
