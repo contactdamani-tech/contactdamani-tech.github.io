@@ -519,3 +519,28 @@ gap:30px;
 }
 
 }
+/* Partner logos grid */
+
+.partners-grid {
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:40px;
+align-items:center;
+margin-top:40px;
+}
+
+.partner-card {
+text-align:center;
+}
+
+.partner-card img {
+max-width:160px;
+margin-bottom:15px;
+filter:grayscale(100%);
+transition:0.3s;
+}
+
+.partner-card img:hover {
+filter:grayscale(0%);
+transform:scale(1.05);
+}
