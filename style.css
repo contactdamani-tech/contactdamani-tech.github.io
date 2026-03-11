@@ -457,3 +457,71 @@ width:100%;
 height:auto;
 display:block;
 }
+/* ================= WORLD MAP ================= */
+
+.world-map{
+position:relative;
+max-width:700px;
+margin:40px auto;
+border:1px solid #e5e5e5;
+border-radius:6px;
+padding:10px;
+background:#fafafa;
+}
+
+.world-map img{
+width:100%;
+height:auto;
+display:block;
+}
+
+/* green map points */
+
+.map-point{
+position:absolute;
+width:14px;
+height:14px;
+background:#006c4f;
+border-radius:50%;
+border:3px solid white;
+box-shadow:0 0 6px rgba(0,0,0,0.3);
+}
+
+/* locations */
+
+.canada{ top:32%; left:22%; }
+
+.uk{ top:33%; left:47%; }
+
+.germany{ top:36%; left:50%; }
+
+.italy{ top:40%; left:51%; }
+
+.japan{ top:37%; left:82%; }
+
+.brazil{ top:63%; left:36%; }
+/* ================= PARTNERS ================= */
+
+.partners-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:40px;
+align-items:center;
+margin-top:40px;
+}
+
+.partner-card{
+text-align:center;
+}
+
+.partner-card img{
+max-width:160px;
+margin-bottom:15px;
+filter:grayscale(100%);
+transition:0.3s;
+}
+
+.partner-card img:hover{
+filter:grayscale(0%);
+transform:scale(1.05);
+}
