@@ -302,15 +302,15 @@ padding:0 20px 20px 20px;
 /* ================= APPLICATION PAGE ================= */
 
 .application-block{
-padding:60px 20px;
+padding:35px 20px;
 }
 
 .application-grid{
 display:flex;
 align-items:center;
-gap:50px;
+gap:35px;
 max-width:1100px;
-margin:0 auto;
+margin:10px auto;
 }
 
 .application-grid.reverse{
