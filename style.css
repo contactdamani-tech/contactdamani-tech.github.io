@@ -598,3 +598,55 @@ font-size:14px;
 line-height:1.5;
 margin-bottom:10px;
 }
+/* ================= REFERENCES LOGO SLIDER ================= */
+
+.references{
+padding:60px 20px;
+background:#f8fafc;
+text-align:center;
+}
+
+.references-intro{
+max-width:800px;
+margin:0 auto 40px auto;
+color:#555;
+}
+
+.logo-slider{
+overflow:hidden;
+position:relative;
+max-width:1100px;
+margin:0 auto;
+}
+
+.logo-track{
+display:flex;
+gap:60px;
+animation:scrollLogos 35s linear infinite;
+align-items:center;
+}
+
+.logo-track img{
+height:50px;
+filter:grayscale(100%);
+opacity:0.8;
+transition:0.3s;
+}
+
+.logo-track img:hover{
+filter:grayscale(0%);
+opacity:1;
+transform:scale(1.05);
+}
+
+@keyframes scrollLogos{
+
+0%{
+transform:translateX(0);
+}
+
+100%{
+transform:translateX(-50%);
+}
+
+}
