@@ -440,3 +440,20 @@ gap:30px;
 }
 
 }
+/* ================= CONTACT MAP ================= */
+
+.world-map{
+position:relative;
+max-width:700px;
+margin:40px auto;
+border:1px solid #e5e5e5;
+border-radius:6px;
+padding:10px;
+background:#fafafa;
+}
+
+.world-map img{
+width:100%;
+height:auto;
+display:block;
+}
