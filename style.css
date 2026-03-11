@@ -579,3 +579,22 @@ box-shadow:0 0 6px rgba(0,0,0,0.3);
 .japan{ top:37%; left:82%; }
 
 .brazil{ top:63%; left:36%; }
+.world-map{
+position:relative;
+max-width:700px;
+margin:40px auto;
+}
+
+.world-map img{
+width:100%;
+height:auto;
+}
+.world-map{
+position:relative;
+max-width:700px;
+margin:40px auto;
+border:1px solid #e5e5e5;
+border-radius:6px;
+padding:10px;
+background:#fafafa;
+}
