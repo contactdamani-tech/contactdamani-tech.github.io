@@ -261,7 +261,7 @@ box-shadow:0 4px 12px rgba(0,0,0,0.05);
 transition:0.25s;
 }
 
-/* ================= HOME APPLICATION CARDS ================= */
+/* ================= HOME APPLICATIONS ================= */
 
 .applications-preview{
 background:#f8fafc;
@@ -282,7 +282,7 @@ margin:0 auto;
 background:white;
 border-radius:6px;
 overflow:hidden;
-width:320px;
+width:300px;
 border:1px solid #e5e5e5;
 box-shadow:0 4px 12px rgba(0,0,0,0.05);
 transition:0.25s;
@@ -302,12 +302,13 @@ box-shadow:0 8px 25px rgba(0,0,0,0.12);
 
 .home-app-card img{
 width:100%;
-height:200px;
+height:170px;
 object-fit:cover;
+display:block;
 }
 
 .home-app-card h3{
-margin:20px 0 10px 0;
+margin:18px 0 8px 0;
 color:#003366;
 }
 
@@ -315,7 +316,7 @@ color:#003366;
 padding:0 20px 20px 20px;
 }
 
-/* ================= APPLICATION PAGE BLOCKS ================= */
+/* ================= APPLICATION PAGE ================= */
 
 .application-block{
 padding:60px 20px;
