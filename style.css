@@ -544,3 +544,38 @@ transition:0.3s;
 filter:grayscale(0%);
 transform:scale(1.05);
 }
+/* World partner map */
+
+.world-map{
+position:relative;
+max-width:900px;
+margin:60px auto;
+}
+
+.world-map img{
+width:100%;
+}
+
+.map-point{
+position:absolute;
+width:14px;
+height:14px;
+background:#006c4f;
+border-radius:50%;
+border:3px solid white;
+box-shadow:0 0 6px rgba(0,0,0,0.3);
+}
+
+/* Locations */
+
+.canada{ top:32%; left:22%; }
+
+.uk{ top:33%; left:47%; }
+
+.germany{ top:36%; left:50%; }
+
+.italy{ top:40%; left:51%; }
+
+.japan{ top:37%; left:82%; }
+
+.brazil{ top:63%; left:36%; }
