@@ -1162,3 +1162,84 @@ grid-template-columns:1fr;
 }
 
 }
+/* VEROLINE PI APPLICATION GRID */
+
+.veroline-app-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:30px;
+margin-top:30px;
+}
+
+.veroline-card{
+background:white;
+border:1px solid #e5e5e5;
+border-radius:6px;
+padding:18px;
+text-align:center;
+}
+
+.veroline-card img{
+max-width:420px;
+width:100%;
+border-radius:6px;
+margin:auto;
+display:block;
+}
+
+.veroline-card p{
+max-width:420px;
+margin:12px auto 0;
+font-size:15px;
+line-height:1.6;
+}
+
+
+
+/* VEROLINE I GRID */
+
+.veroline-i-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:30px;
+margin-top:30px;
+max-width:900px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.veroline-i-card{
+background:white;
+border:1px solid #e5e5e5;
+border-radius:6px;
+padding:18px;
+text-align:center;
+}
+
+.veroline-i-card img{
+max-width:260px;
+width:100%;
+border-radius:6px;
+margin:auto;
+display:block;
+}
+
+.veroline-i-card p{
+max-width:260px;
+margin:12px auto 0;
+font-size:14px;
+line-height:1.6;
+}
+
+
+
+/* MOBILE */
+
+@media (max-width:900px){
+
+.veroline-app-grid,
+.veroline-i-grid{
+grid-template-columns:1fr;
+}
+
+}
