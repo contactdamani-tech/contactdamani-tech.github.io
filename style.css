@@ -1252,3 +1252,13 @@ height:auto;
 margin:auto;
 display:block;
 }
+/* VEROLINE I photos larger */
+
+.vli-photo{
+max-width:380px;
+width:100%;
+height:auto;
+display:block;
+margin:auto;
+border-radius:6px;
+}
