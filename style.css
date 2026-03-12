@@ -1254,13 +1254,17 @@ display:block;
 }
 /* VEROLINE I photos larger */
 
+/* VEROLINE I photos */
+
 .vli-photo{
-max-width:380px;
+max-width:520px;
 width:100%;
 height:auto;
 display:block;
 margin:auto;
 border-radius:6px;
+border:1px solid #e5e5e5;
+box-shadow:0 4px 10px rgba(0,0,0,0.08);
 }
 /* VEROLINE ADVANTAGES */
 
