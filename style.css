@@ -1262,3 +1262,39 @@ display:block;
 margin:auto;
 border-radius:6px;
 }
+/* VEROLINE ADVANTAGES */
+
+.veroline-advantages{
+background:#f8fafc;
+padding:50px 20px;
+text-align:center;
+}
+
+.advantages-grid{
+display:flex;
+flex-wrap:wrap;
+gap:30px;
+justify-content:center;
+max-width:1100px;
+margin:40px auto;
+}
+
+.advantage-box{
+background:white;
+border:1px solid #e5e5e5;
+border-radius:6px;
+padding:25px;
+max-width:250px;
+box-shadow:0 4px 12px rgba(0,0,0,0.05);
+transition:0.25s;
+}
+
+.advantage-box:hover{
+transform:translateY(-6px);
+box-shadow:0 8px 25px rgba(0,0,0,0.12);
+}
+
+.advantage-box h3{
+color:#003366;
+margin-bottom:10px;
+}
