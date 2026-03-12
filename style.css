@@ -917,3 +917,88 @@ margin:50px auto;
 margin:10px;
 display:inline-block;
 }
+/* HERO VEROLINE */
+
+.hero-veroline{
+background-image:
+linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),
+url("/assets/loco-quai.jpg");
+background-size:cover;
+background-position:center;
+}
+
+
+/* TEXT STYLE */
+
+.container p{
+max-width:750px;
+margin:auto;
+margin-bottom:15px;
+font-size:16px;
+line-height:1.7;
+color:#333;
+}
+
+
+/* TECHNICAL DRAWINGS */
+
+.veroline-tech{
+display:flex;
+gap:50px;
+justify-content:center;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.tech-item{
+text-align:center;
+}
+
+.tech-item img{
+max-width:420px;
+width:100%;
+height:auto;
+border-radius:6px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.tech-item p{
+margin-top:10px;
+font-size:14px;
+color:#555;
+}
+
+
+/* APPLICATION IMAGES */
+
+.application-image img{
+max-width:320px;
+width:100%;
+border-radius:6px;
+}
+
+
+/* PDF DOWNLOAD */
+
+.pdf-download{
+text-align:center;
+max-width:700px;
+margin:60px auto;
+}
+
+.pdf-buttons{
+display:flex;
+gap:20px;
+justify-content:center;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.pdf-button{
+padding:12px 25px;
+background:#003366;
+color:white;
+border-radius:5px;
+text-decoration:none;
+font-weight:600;
+}
