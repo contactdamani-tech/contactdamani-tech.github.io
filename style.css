@@ -1298,3 +1298,8 @@ box-shadow:0 8px 25px rgba(0,0,0,0.12);
 color:#003366;
 margin-bottom:10px;
 }
+.veroline-product{
+padding:60px 20px;
+margin-top:40px;
+border-top:3px solid #e5e5e5;
+}
