@@ -1243,3 +1243,12 @@ grid-template-columns:1fr;
 }
 
 }
+/* VEROLINE I dimensions (smaller) */
+
+.vli-dim{
+max-width:220px;
+width:100%;
+height:auto;
+margin:auto;
+display:block;
+}
