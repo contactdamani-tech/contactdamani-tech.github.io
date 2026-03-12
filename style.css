@@ -1110,3 +1110,55 @@ justify-content:center;
 flex-wrap:wrap;
 margin-top:20px;
 }
+/* VEROLINE APPLICATION GRID */
+
+.veroline-applications{
+padding:40px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.veroline-app-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:30px;
+margin-top:30px;
+}
+
+.veroline-card{
+background:#ffffff;
+border:1px solid #e5e5e5;
+border-radius:6px;
+padding:18px;
+text-align:center;
+box-shadow:0 3px 8px rgba(0,0,0,0.05);
+}
+
+.veroline-card img{
+width:100%;
+max-width:320px;
+margin:auto;
+display:block;
+border-radius:6px;
+}
+
+.veroline-card p{
+font-size:15px;
+line-height:1.6;
+margin-top:12px;
+color:#444;
+max-width:320px;
+margin-left:auto;
+margin-right:auto;
+}
+
+
+/* MOBILE */
+
+@media (max-width:900px){
+
+.veroline-app-grid{
+grid-template-columns:1fr;
+}
+
+}
