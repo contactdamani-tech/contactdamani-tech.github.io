@@ -845,11 +845,16 @@ display:block;
 margin:auto;
 }
 .pdf-download{
-background:#f4f6f9;
-border:1px solid #e2e6ea;
-padding:25px;
-margin:40px auto;
-border-radius:6px;
 text-align:center;
-max-width:700px;
+max-width:650px;
+margin:40px auto;
+}
+.veroline-grid img{
+max-width:300px;
+width:100%;
+border-radius:6px;
+}
+
+.application-image img{
+max-width:380px;
 }
