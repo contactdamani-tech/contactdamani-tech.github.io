@@ -1217,7 +1217,7 @@ text-align:center;
 }
 
 .veroline-i-card img{
-max-width:260px;
+max-width:420px;
 width:100%;
 border-radius:6px;
 margin:auto;
@@ -1225,7 +1225,7 @@ display:block;
 }
 
 .veroline-i-card p{
-max-width:260px;
+max-width:420px;
 margin:12px auto 0;
 font-size:14px;
 line-height:1.6;
@@ -1306,4 +1306,11 @@ margin-bottom:10px;
 padding:60px 20px;
 margin-top:40px;
 border-top:3px solid #e5e5e5;
+}
+/* ================= VEROLINE APPLICATION TITLE FIX ================= */
+
+.veroline-applications h2{
+margin-bottom:35px;
+margin-top:10px;
+text-align:center;
 }
