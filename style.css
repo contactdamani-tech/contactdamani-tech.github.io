@@ -825,3 +825,22 @@ display:block;
 margin:25px auto;
 border-radius:6px;
 }
+/* ================= VEROLINE PAGE ================= */
+
+.veroline-grid img{
+max-width:320px;
+width:100%;
+border-radius:6px;
+margin:auto;
+display:block;
+}
+
+.veroline-item{
+text-align:center;
+}
+.veroline-tech img{
+max-width:550px;
+width:100%;
+display:block;
+margin:auto;
+}
