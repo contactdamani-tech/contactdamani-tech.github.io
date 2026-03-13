@@ -20,24 +20,45 @@
 
 <style>
 
-.tech-image{
-display:block;
+.figure-center{
+max-width:760px;
 margin:40px auto;
-max-width:720px;
-width:100%;
-height:auto;
-border-radius:6px;
-box-shadow:0 6px 18px rgba(0,0,0,0.25);
+text-align:center;
 }
 
-.tech-image-small{
-display:block;
+.figure-small{
+max-width:520px;
 margin:35px auto;
-max-width:500px;
+text-align:center;
+}
+
+.figure-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+max-width:900px;
+margin:40px auto;
+}
+
+.figure-grid img,
+.figure-center img,
+.figure-small img{
 width:100%;
 height:auto;
 border-radius:6px;
-box-shadow:0 4px 14px rgba(0,0,0,0.2);
+box-shadow:0 6px 20px rgba(0,0,0,0.2);
+}
+
+figcaption{
+margin-top:10px;
+font-size:0.9em;
+color:#666;
+}
+
+@media (max-width:800px){
+.figure-grid{
+grid-template-columns:1fr;
+}
 }
 
 </style>
@@ -88,6 +109,7 @@ class="site-logo">
 </header>
 
 
+
 <section class="hero" style="background-image:url('/assets/continous-casting-line2.jpg'); background-size:cover; background-position:center;">
 
 <div class="hero-content">
@@ -103,19 +125,31 @@ Industrial RFID traceability system designed for the identification and lifecycl
 </section>
 
 
+
 <section class="container">
 
 <h2>Continuous Casting Process</h2>
 
 <p>
-Continuous casting is a key steelmaking process that allows the continuous production of semi-finished steel products such as slabs, billets and blooms.
+Continuous casting is a key steelmaking process used to produce slabs, billets and blooms. A typical casting machine contains between 9 and 15 segments and more than 1000 rolls guiding the strand until full solidification.
 </p>
 
-<img src="/assets/cage-am.jpg" alt="Continuous casting machine roll segment" class="tech-image">
+<div class="figure-grid">
 
-<img src="/assets/cage-new.JPG" alt="Continuous casting roll cage steel plant" class="tech-image">
+<figure>
+<img src="/assets/cage-am.jpg" alt="Continuous casting machine roll segment">
+<figcaption>Continuous casting roll segment</figcaption>
+</figure>
+
+<figure>
+<img src="/assets/cage-new.JPG" alt="Continuous casting roll cage structure">
+<figcaption>Casting segment structure with multiple rolls</figcaption>
+</figure>
+
+</div>
 
 </section>
+
 
 
 <section class="container">
@@ -123,12 +157,16 @@ Continuous casting is a key steelmaking process that allows the continuous produ
 <h2>Severe Operating Conditions</h2>
 
 <p>
-Hot slabs pass through the roll segments under extreme thermal and mechanical conditions.
+During casting operations, hot steel slabs pass between rolls under extreme thermal and mechanical conditions. Roll identification systems must operate reliably in environments exposed to heat, scale, water spray and vibration.
 </p>
 
-<img src="/assets/hotslab-roll.gif" alt="Hot slab passing through casting rolls" class="tech-image">
+<figure class="figure-center">
+<img src="/assets/hotslab-roll.gif" alt="Hot steel slab passing between casting rolls">
+<figcaption>Hot steel slab moving through continuous casting rolls</figcaption>
+</figure>
 
 </section>
+
 
 
 <section class="container">
@@ -136,12 +174,26 @@ Hot slabs pass through the roll segments under extreme thermal and mechanical co
 <h2>Challenges of Roll Management</h2>
 
 <p>
-Managing the lifecycle of hundreds of casting rolls is a major challenge for steel plants.
+Casting rolls operate under severe industrial constraints and must be regularly inspected, refurbished and replaced. Managing this large fleet of equipment is a major challenge for steel plants.
 </p>
 
-<img src="/assets/parc-roll.gif" alt="Outdoor storage of casting rolls" class="tech-image">
+<ul>
+
+<li>Installed on the casting machine</li>
+<li>Stored in maintenance workshops</li>
+<li>Awaiting refurbishment</li>
+<li>Being reconditioned</li>
+<li>Scrapped</li>
+
+</ul>
+
+<figure class="figure-center">
+<img src="/assets/parc-roll.gif" alt="Outdoor storage of continuous casting rolls">
+<figcaption>Outdoor storage yard for casting rolls</figcaption>
+</figure>
 
 </section>
+
 
 
 <section class="container">
@@ -149,12 +201,16 @@ Managing the lifecycle of hundreds of casting rolls is a major challenge for ste
 <h2>Traditional Roll Traceability</h2>
 
 <p>
-Many steel plants still rely on manual documentation to track roll lifecycle and maintenance operations.
+In many steel plants, roll traceability is still based on manual documentation or paper records, which often leads to incomplete lifecycle tracking.
 </p>
 
-<img src="/assets/paper-trav.gif" alt="Manual paper traceability of casting rolls" class="tech-image-small">
+<figure class="figure-small">
+<img src="/assets/paper-trav.gif" alt="Manual paper roll traceability system">
+<figcaption>Example of manual paper-based roll traceability</figcaption>
+</figure>
 
 </section>
+
 
 
 <section class="container">
@@ -162,10 +218,29 @@ Many steel plants still rely on manual documentation to track roll lifecycle and
 <h2>TRACKROLL-ID® Concept</h2>
 
 <p>
-TRACKROLL-ID® is an RFID-based traceability solution designed specifically for continuous casting roll tracking.
+TRACKROLL-ID® is an industrial RFID traceability system designed to identify casting rolls and track their lifecycle across maintenance operations, storage yards and production lines.
 </p>
 
+<p>
+The system includes several complementary components:
+</p>
+
+<ul>
+
+<li><strong>TRACKROLL-ID® Tag</strong> – RFID tag integrated inside casting rolls</li>
+
+<li><strong>TRACKROLL-ID® Cross</strong> – Identification tag for roll support beams</li>
+
+<li><strong>TRACKROLL-ID® PDA</strong> – Portable industrial reader</li>
+
+<li><strong>TRACKROLL-ID® WiewApp</strong> – Mobile application for field data entry</li>
+
+<li><strong>TRACKROLL-ID® myWiew</strong> – Web interface for monitoring and analysis</li>
+
+</ul>
+
 </section>
+
 
 
 <section class="container">
@@ -173,33 +248,57 @@ TRACKROLL-ID® is an RFID-based traceability solution designed specifically for 
 <h2>Field Integration</h2>
 
 <p>
-RFID TRACKROLL-ID® Tags are installed directly in casting rolls using a dedicated installation method.
+TRACKROLL-ID® tags are installed in dedicated housings machined into the roll structure according to controlled industrial procedures.
 </p>
 
-<img src="/assets/fix-tag.gif" alt="RFID tag installed in casting roll" class="tech-image-small">
+<figure class="figure-small">
+<img src="/assets/fix-tag.gif" alt="RFID tag installation inside casting roll">
+<figcaption>Installation of TRACKROLL-ID tag inside roll structure</figcaption>
+</figure>
 
-<img src="/assets/traverse.gif" alt="Traverse equipped with TRACKROLL-ID tag" class="tech-image">
+<figure class="figure-center">
+<img src="/assets/traverse.gif" alt="Traverse equipped with RFID identification tag">
+<figcaption>Traverse equipped with TRACKROLL-ID Cross identification tag</figcaption>
+</figure>
 
 </section>
+
 
 
 <section class="container">
 
-<h2>Software Platform</h2>
+<h2>Software Interfaces</h2>
 
 <p>
-TRACKROLL-ID® includes several software interfaces for roll identification and lifecycle management.
+The TRACKROLL-ID® platform provides several software tools enabling roll identification, lifecycle monitoring and maintenance tracking.
 </p>
 
-<img src="/assets/pad-tag.gif" alt="TRACKROLL-ID PDA reader interface" class="tech-image-small">
+<div class="figure-grid">
 
-<img src="/assets/wiew-app.gif" alt="TRACKROLL-ID ViewApp interface" class="tech-image-small">
+<figure>
+<img src="/assets/pad-tag.gif" alt="TRACKROLL-ID PDA reader">
+<figcaption>PDA reader used for field identification</figcaption>
+</figure>
 
-<img src="/assets/mywiew.gif" alt="TRACKROLL-ID MyView software interface" class="tech-image">
+<figure>
+<img src="/assets/wiew-app.gif" alt="TRACKROLL-ID ViewApp mobile application">
+<figcaption>TRACKROLL-ID ViewApp mobile interface</figcaption>
+</figure>
 
-<img src="/assets/pc.gif" alt="PC workstation running TRACKROLL-ID software" class="tech-image-small">
+</div>
+
+<figure class="figure-center">
+<img src="/assets/mywiew.gif" alt="TRACKROLL-ID MyView monitoring interface">
+<figcaption>TRACKROLL-ID MyView software interface</figcaption>
+</figure>
+
+<figure class="figure-small">
+<img src="/assets/pc.gif" alt="Industrial workstation running TRACKROLL-ID software">
+<figcaption>Industrial workstation running TRACKROLL-ID MyView</figcaption>
+</figure>
 
 </section>
+
 
 
 <section class="container">
@@ -209,14 +308,16 @@ TRACKROLL-ID® includes several software interfaces for roll identification and 
 <ul>
 
 <li>Digital roll identification</li>
+<li>Precise roll location tracking</li>
 <li>Complete lifecycle traceability</li>
-<li>Improved maintenance planning</li>
-<li>Roll lifespan analysis</li>
-<li>Integration with ERP systems</li>
+<li>Maintenance optimization</li>
+<li>Integration with plant information systems</li>
+<li>Improved operational visibility</li>
 
 </ul>
 
 </section>
+
 
 
 <section class="container">
@@ -224,7 +325,7 @@ TRACKROLL-ID® includes several software interfaces for roll identification and 
 <h2>Discuss Your Application</h2>
 
 <p>
-DAMANI Group supports steel producers and machine builders implementing roll traceability solutions.
+DAMANI Group supports steel producers, machine builders and maintenance teams in implementing advanced roll traceability systems.
 </p>
 
 <a href="/contact.html" class="cta-button">
@@ -234,19 +335,21 @@ Contact DAMANI Group
 </section>
 
 
+
 <section class="container">
 
 <h2>Technical Documentation</h2>
 
 <p>
-Download the TRACKROLL-ID® technical presentation.
+Download the complete TRACKROLL-ID® technical presentation.
 </p>
 
 <a href="/assets/pdf/trackroll-id-en.pdf" class="cta-button" target="_blank">
-Download TRACKROLL-ID® Technical Presentation
+Download TRACKROLL-ID® Technical Presentation (PDF)
 </a>
 
 </section>
+
 
 
 <footer class="site-footer">
@@ -254,20 +357,30 @@ Download TRACKROLL-ID® Technical Presentation
 <div class="footer-container">
 
 <div class="footer-column">
+
 <h3>DAMANI Group</h3>
+
 <p>Industrial Positioning & Identification Sensors</p>
+<p>Solutions for Steel Plants and Heavy Industry</p>
 
 <p>
 Phone: +33 (0)4 58 10 52 16<br>
 Email: <a href="mailto:contact@damani-group.fr">contact@damani-group.fr</a>
 </p>
 
+<p>
+<a href="https://www.linkedin.com/in/RP-damani-group/" target="_blank">LinkedIn</a>
+</p>
+
 </div>
 
 <div class="footer-column">
+
 <h3>Solutions</h3>
+
 <p><a href="/trackroll-id.html">TRACKROLL-ID®</a></p>
 <p><a href="/veroline.html">VEROLINE®PI</a></p>
+
 </div>
 
 <div class="footer-column">
