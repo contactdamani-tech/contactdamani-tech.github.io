@@ -3,69 +3,76 @@
 
 <head>
 <meta charset="UTF-8">
-<meta name="google-site-verification" content="3yLx8zY25hI622fWHEjkAXguRIZJFd1kEDnIqtdhh4A"/>
 
 <title>TRACKROLL-ID® – Continuous Casting Roll Traceability</title>
 
 <meta name="description" content="TRACKROLL-ID® is an industrial RFID traceability system designed for the identification and lifecycle tracking of continuous casting rolls in steel plants.">
 
-<link rel="canonical" href="https://contactdamani-tech.github.io/trackroll-id.html">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="alternate" hreflang="en" href="https://contactdamani-tech.github.io/trackroll-id.html">
-<link rel="alternate" hreflang="fr" href="https://contactdamani-tech.github.io/fr/trackroll-id.html">
-
 <link rel="stylesheet" href="/style.css">
 
 <style>
 
-.figure-large{
-max-width:780px;
-margin:40px auto;
-text-align:center;
-}
+/* layout blocks */
 
-.figure-center{
-max-width:680px;
-margin:40px auto;
-text-align:center;
-}
-
-.figure-small{
-max-width:380px;
-margin:35px auto;
-text-align:center;
-}
-
-.figure-grid{
+.split{
 display:grid;
-grid-template-columns:1fr 1fr 1fr;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+margin:50px 0;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 gap:25px;
-max-width:900px;
-margin:40px auto;
+margin:40px 0;
 }
 
-.figure-grid img,
-.figure-large img,
-.figure-center img,
-.figure-small img{
+.gallery img{
 width:100%;
-height:auto;
 border-radius:6px;
-box-shadow:0 6px 18px rgba(0,0,0,0.2);
+box-shadow:0 6px 16px rgba(0,0,0,0.2);
 }
 
-figcaption{
-margin-top:10px;
+.figure{
+text-align:center;
+margin:30px auto;
+}
+
+.figure img{
+max-width:100%;
+border-radius:6px;
+box-shadow:0 6px 16px rgba(0,0,0,0.2);
+}
+
+.figure-small img{
+max-width:360px;
+}
+
+.figure-medium img{
+max-width:650px;
+}
+
+.caption{
 font-size:0.9em;
 color:#666;
+margin-top:8px;
 }
 
-@media (max-width:800px){
-.figure-grid{
+.tech-box{
+background:#f6f6f6;
+padding:25px;
+border-radius:6px;
+margin:30px 0;
+}
+
+@media (max-width:900px){
+
+.split{
 grid-template-columns:1fr;
 }
+
 }
 
 </style>
@@ -74,6 +81,7 @@ grid-template-columns:1fr;
 
 <body>
 
+
 <header class="site-header">
 
 <div class="header-inner">
@@ -81,9 +89,7 @@ grid-template-columns:1fr;
 <div class="logo-block">
 
 <a href="/">
-<img src="/assets/logo-damani-white.png"
-alt="Damani Group"
-class="site-logo">
+<img src="/assets/logo-damani-white.png" class="site-logo">
 </a>
 
 <div class="brand-text">
@@ -103,12 +109,6 @@ class="site-logo">
 <a href="/news.html">News</a>
 <a href="/contact.html">Contact</a>
 
-<a href="https://www.linkedin.com/in/RP-damani-group/" target="_blank">LinkedIn</a>
-
-<a href="/fr/">
-<img src="/assets/flag-fr.jpg" alt="Français" style="height:20px;">
-</a>
-
 </nav>
 
 </div>
@@ -124,7 +124,7 @@ class="site-logo">
 <h1>TRACKROLL-ID®</h1>
 
 <p>
-Industrial RFID traceability system designed for the identification and lifecycle tracking of continuous casting rolls in steel plants.
+Industrial RFID traceability system for continuous casting rolls in steel plants.
 </p>
 
 </div>
@@ -137,19 +137,36 @@ Industrial RFID traceability system designed for the identification and lifecycl
 
 <h2>Continuous Casting Process</h2>
 
+<div class="split">
+
+<div>
+
 <p>
-Continuous casting is a key steelmaking process used to produce slabs, billets and blooms. A typical casting machine contains between 9 and 15 segments and more than 1000 rolls guiding the strand until full solidification.
+Continuous casting is a key steelmaking process used to produce slabs, billets and blooms.
 </p>
 
-<figure class="figure-large">
-<img src="/assets/cage-am.jpg" alt="Continuous casting machine roll segment">
-<figcaption>Continuous casting roll segment</figcaption>
-</figure>
+<p>
+A typical casting machine contains between 9 and 15 segments and more than 1000 rolls guiding the strand until full solidification.
+</p>
 
-<figure class="figure-large">
-<img src="/assets/cage-new.JPG" alt="Continuous casting roll cage structure">
-<figcaption>Casting segment structure with multiple rolls</figcaption>
-</figure>
+</div>
+
+<div>
+
+<div class="figure figure-medium">
+<img src="/assets/cage-am.jpg">
+<div class="caption">Continuous casting roll segment</div>
+</div>
+
+</div>
+
+</div>
+
+
+<div class="figure figure-medium">
+<img src="/assets/cage-new.JPG">
+<div class="caption">Casting segment structure with multiple rolls</div>
+</div>
 
 </section>
 
@@ -159,14 +176,26 @@ Continuous casting is a key steelmaking process used to produce slabs, billets a
 
 <h2>Severe Operating Conditions</h2>
 
+<div class="split">
+
+<div>
+
 <p>
 During casting operations, hot steel slabs pass between rolls under extreme thermal and mechanical conditions.
 </p>
 
-<figure class="figure-small">
-<img src="/assets/hotslab-roll.gif" alt="Hot steel slab passing between casting rolls">
-<figcaption>Hot steel slab moving through continuous casting rolls</figcaption>
-</figure>
+<p>
+Roll identification systems must operate reliably despite high temperatures, scale and vibration.
+</p>
+
+</div>
+
+<div class="figure figure-small">
+<img src="/assets/hotslab-roll.gif">
+<div class="caption">Hot slab passing through casting rolls</div>
+</div>
+
+</div>
 
 </section>
 
@@ -176,31 +205,30 @@ During casting operations, hot steel slabs pass between rolls under extreme ther
 
 <h2>Challenges of Roll Management</h2>
 
-<p>
-Casting rolls operate under severe industrial constraints and must be regularly inspected, refurbished and replaced.
-</p>
+<div class="split">
 
-<figure class="figure-center">
-<img src="/assets/parc-roll.gif" alt="Outdoor storage of continuous casting rolls">
-<figcaption>Outdoor storage yard for casting rolls</figcaption>
-</figure>
-
-</section>
-
-
-
-<section class="container">
-
-<h2>Traditional Roll Traceability</h2>
+<div>
 
 <p>
-In many steel plants, roll traceability is still based on manual documentation or paper records.
+Managing the lifecycle of hundreds of rolls across maintenance workshops and storage yards is a major operational challenge for steel plants.
 </p>
 
-<figure class="figure-small">
-<img src="/assets/paper-trav.gif" alt="Manual roll traceability documents">
-<figcaption>Example of paper-based roll traceability</figcaption>
-</figure>
+<ul>
+
+<li>Roll installation on casting machines</li>
+<li>Maintenance and refurbishment cycles</li>
+<li>Storage management</li>
+
+</ul>
+
+</div>
+
+<div class="figure figure-medium">
+<img src="/assets/parc-roll.gif">
+<div class="caption">Outdoor storage yard for casting rolls</div>
+</div>
+
+</div>
 
 </section>
 
@@ -210,19 +238,23 @@ In many steel plants, roll traceability is still based on manual documentation o
 
 <h2>TRACKROLL-ID® Concept</h2>
 
+<div class="tech-box">
+
 <p>
-TRACKROLL-ID® is an RFID traceability system designed to identify casting rolls and track their lifecycle across maintenance operations and storage yards.
+TRACKROLL-ID® is an RFID-based traceability system designed to track the lifecycle of continuous casting rolls.
 </p>
 
 <ul>
 
-<li><strong>TRACKROLL-ID® Tag</strong> – RFID tag integrated inside casting rolls</li>
-<li><strong>TRACKROLL-ID® Cross</strong> – Identification tag for roll support beams</li>
-<li><strong>TRACKROLL-ID® PDA</strong> – Portable industrial reader</li>
-<li><strong>TRACKROLL-ID® WiewApp</strong> – Mobile application</li>
-<li><strong>TRACKROLL-ID® myWiew</strong> – Web monitoring platform</li>
+<li><strong>TRACKROLL-ID® Tag</strong> – RFID tag integrated inside rolls</li>
+<li><strong>TRACKROLL-ID® Cross</strong> – identification tag for beams</li>
+<li><strong>TRACKROLL-ID® PDA</strong> – portable reader</li>
+<li><strong>TRACKROLL-ID® WiewApp</strong> – mobile interface</li>
+<li><strong>TRACKROLL-ID® myWiew</strong> – monitoring platform</li>
 
 </ul>
+
+</div>
 
 </section>
 
@@ -232,31 +264,27 @@ TRACKROLL-ID® is an RFID traceability system designed to identify casting rolls
 
 <h2>Field Integration</h2>
 
-<p>
-TRACKROLL-ID® tags are installed in dedicated housings machined into the roll structure.
-</p>
+<div class="gallery">
 
-<figure class="figure-small">
-<img src="/assets/fix-tag.gif" alt="RFID tag installation inside casting roll">
-<figcaption>Installation of TRACKROLL-ID tag inside roll structure</figcaption>
-</figure>
+<div class="figure">
+<img src="/assets/fix-tag.gif">
+<div class="caption">RFID tag installation inside casting roll</div>
+</div>
 
-<div class="figure-grid">
+<div class="figure">
+<img src="/assets/tag%20traverse.jpg">
+<div class="caption">Traverse identification tag</div>
+</div>
 
-<figure>
-<img src="/assets/tag%20traverse%20et%20pappers.jpg" alt="Traverse tag and maintenance papers">
-<figcaption>Tagged traverse and maintenance documentation</figcaption>
-</figure>
+<div class="figure">
+<img src="/assets/tag%20traverse%20et%20pappers.jpg">
+<div class="caption">Tagged traverse and maintenance documents</div>
+</div>
 
-<figure>
-<img src="/assets/tag%20traverse.jpg" alt="Traverse equipped with RFID tag">
-<figcaption>Traverse identification tag</figcaption>
-</figure>
-
-<figure>
-<img src="/assets/paper-trav.gif" alt="Manual paper maintenance tracking">
-<figcaption>Manual maintenance traceability</figcaption>
-</figure>
+<div class="figure">
+<img src="/assets/paper-trav.gif">
+<div class="caption">Manual paper traceability</div>
+</div>
 
 </div>
 
@@ -268,29 +296,29 @@ TRACKROLL-ID® tags are installed in dedicated housings machined into the roll s
 
 <h2>Software Interfaces</h2>
 
-<div class="figure-grid">
+<div class="gallery">
 
-<figure>
-<img src="/assets/pad-tag.gif" alt="TRACKROLL-ID PDA reader">
-<figcaption>PDA reader used for field identification</figcaption>
-</figure>
-
-<figure>
-<img src="/assets/wiew-app.gif" alt="TRACKROLL-ID ViewApp mobile application">
-<figcaption>TRACKROLL-ID ViewApp mobile interface</figcaption>
-</figure>
-
-<figure>
-<img src="/assets/mywiew.gif" alt="TRACKROLL-ID MyView monitoring interface">
-<figcaption>TRACKROLL-ID MyView monitoring interface</figcaption>
-</figure>
-
+<div class="figure">
+<img src="/assets/pad-tag.gif">
+<div class="caption">PDA identification reader</div>
 </div>
 
-<figure class="figure-small">
-<img src="/assets/pc.gif" alt="Industrial workstation running TRACKROLL-ID">
-<figcaption>Industrial workstation running TRACKROLL-ID MyView</figcaption>
-</figure>
+<div class="figure">
+<img src="/assets/wiew-app.gif">
+<div class="caption">ViewApp mobile interface</div>
+</div>
+
+<div class="figure">
+<img src="/assets/mywiew.gif">
+<div class="caption">MyView monitoring interface</div>
+</div>
+
+<div class="figure">
+<img src="/assets/pc.gif">
+<div class="caption">TRACKROLL-ID workstation</div>
+</div>
+
+</div>
 
 </section>
 
@@ -303,44 +331,11 @@ TRACKROLL-ID® tags are installed in dedicated housings machined into the roll s
 <ul>
 
 <li>Digital roll identification</li>
-<li>Precise roll location tracking</li>
 <li>Complete lifecycle traceability</li>
-<li>Maintenance optimization</li>
+<li>Maintenance optimisation</li>
 <li>Integration with plant information systems</li>
 
 </ul>
-
-</section>
-
-
-
-<section class="container">
-
-<h2>Discuss Your Application</h2>
-
-<p>
-DAMANI Group supports steel producers and machine builders implementing roll traceability solutions.
-</p>
-
-<a href="/contact.html" class="cta-button">
-Contact DAMANI Group
-</a>
-
-</section>
-
-
-
-<section class="container">
-
-<h2>Technical Documentation</h2>
-
-<p>
-Download the complete TRACKROLL-ID® technical presentation.
-</p>
-
-<a href="/assets/pdf/trackroll-id-en.pdf" class="cta-button" target="_blank">
-Download TRACKROLL-ID® Technical Presentation (PDF)
-</a>
 
 </section>
 
@@ -355,11 +350,9 @@ Download TRACKROLL-ID® Technical Presentation (PDF)
 <h3>DAMANI Group</h3>
 
 <p>Industrial Positioning & Identification Sensors</p>
-<p>Solutions for Steel Plants and Heavy Industry</p>
 
 <p>
-Phone: +33 (0)4 58 10 52 16<br>
-Email: <a href="mailto:contact@damani-group.fr">contact@damani-group.fr</a>
+Email : contact@damani-group.fr
 </p>
 
 </div>
@@ -373,24 +366,6 @@ Email: <a href="mailto:contact@damani-group.fr">contact@damani-group.fr</a>
 
 </div>
 
-<div class="footer-column">
-
-<img src="/assets/logo-damani-white.png"
-alt="Damani Group"
-class="footer-logo">
-
-<p><a href="/">Home</a></p>
-<p><a href="/about.html">About</a></p>
-<p><a href="/technology.html">Technology</a></p>
-<p><a href="/applications.html">Applications</a></p>
-<p><a href="/contact.html">Contact</a></p>
-
-</div>
-
-</div>
-
-<div class="footer-bottom">
-<p>© 2026 DAMANI Group — Industrial sensor technologies</p>
 </div>
 
 </footer>
