@@ -7,14 +7,11 @@
 
 <title>Actualités | DAMANI Group</title>
 
-<meta name="description" content="Actualités DAMANI Group sur les capteurs industriels, la sidérurgie et les technologies de positionnement pour l'industrie lourde.">
+<meta name="description" content="Actualités et informations industrielles de DAMANI Group concernant les capteurs industriels pour la sidérurgie et l'industrie lourde.">
 
 <link rel="canonical" href="https://contactdamani-tech.github.io/fr/news.html">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="alternate" hreflang="fr" href="https://contactdamani-tech.github.io/fr/news.html">
-<link rel="alternate" hreflang="en" href="https://contactdamani-tech.github.io/news.html">
 
 <link rel="stylesheet" href="/style.css">
 
@@ -71,7 +68,7 @@ class="site-logo">
 <h1>Actualités DAMANI Group</h1>
 
 <p>
-Retrouvez les dernières informations, annonces et développements technologiques de DAMANI Group.
+Retrouvez les dernières informations et annonces technologiques de DAMANI Group.
 </p>
 
 </section>
@@ -81,12 +78,34 @@ Retrouvez les dernières informations, annonces et développements technologique
 <section style="width:100%;">
 
 <iframe 
+id="newsFrame"
 src="/news.html"
-style="width:100%; height:1600px; border:none;"
-title="DAMANI News">
+style="width:100%; height:1800px; border:none;">
 </iframe>
 
 </section>
+
+
+
+<script>
+
+/* supprime le header et footer de la page EN dans l'iframe */
+
+document.getElementById("newsFrame").onload = function() {
+
+let iframe = document.getElementById("newsFrame");
+
+let iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+
+let header = iframeDoc.querySelector(".site-header");
+let footer = iframeDoc.querySelector(".site-footer");
+
+if(header) header.style.display = "none";
+if(footer) footer.style.display = "none";
+
+};
+
+</script>
 
 
 
