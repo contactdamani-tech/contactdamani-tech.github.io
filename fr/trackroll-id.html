@@ -1,29 +1,75 @@
-<!DOCTYPE html>
 <html lang="fr">
 
 <head>
-
 <meta charset="UTF-8">
 <meta name="google-site-verification" content="3yLx8zY25hI622fWHEjkAXguRIZJFd1kEDnIqtdhh4A"/>
 
-<title>DAMANI Group – Ingénierie de capteurs industriels pour la sidérurgie</title>
+<title>TRACKROLL-ID® – Traçabilité des rouleaux de coulée continue</title>
 
-<meta name="description" content="DAMANI Group développe des capteurs industriels robustes pour les aciéries, les cokeries, les machines de coulée continue et l’industrie lourde.">
+<meta name="description" content="TRACKROLL-ID® est un système industriel de traçabilité RFID permettant l’identification et le suivi du cycle de vie des rouleaux de coulée continue dans les aciéries.">
 
-<link rel="canonical" href="https://contactdamani-tech.github.io/fr/about.html">
+<link rel="canonical" href="https://contactdamani-tech.github.io/fr/trackroll-id.html">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="alternate" hreflang="en" href="https://contactdamani-tech.github.io/about.html">
-<link rel="alternate" hreflang="fr" href="https://contactdamani-tech.github.io/fr/about.html">
-<link rel="alternate" hreflang="x-default" href="https://contactdamani-tech.github.io/about.html">
+<link rel="alternate" hreflang="en" href="https://contactdamani-tech.github.io/trackroll-id.html">
+<link rel="alternate" hreflang="fr" href="https://contactdamani-tech.github.io/fr/trackroll-id.html">
 
 <link rel="stylesheet" href="/style.css">
+
+<style>
+.figure-large{
+max-width:780px;
+margin:40px auto;
+text-align:center;
+}
+
+.figure-center{
+max-width:680px;
+margin:40px auto;
+text-align:center;
+}
+
+.figure-small{
+max-width:380px;
+margin:35px auto;
+text-align:center;
+}
+
+.figure-grid{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:25px;
+max-width:900px;
+margin:40px auto;
+}
+
+.figure-grid img,
+.figure-large img,
+.figure-center img,
+.figure-small img{
+width:100%;
+height:auto;
+border-radius:6px;
+box-shadow:0 6px 18px rgba(0,0,0,0.2);
+}
+
+figcaption{
+margin-top:10px;
+font-size:0.9em;
+color:#666;
+}
+
+@media (max-width:800px){
+.figure-grid{
+grid-template-columns:1fr;
+}
+}
+</style>
 
 </head>
 
 <body>
-
 
 <header class="site-header">
 
@@ -39,7 +85,7 @@ class="site-logo">
 
 <div class="brand-text">
 <strong>DAMANI Group</strong>
-<span>Capteurs de positionnement et d’identification industriels</span>
+<span>Capteurs industriels de positionnement et d’identification</span>
 </div>
 
 </div>
@@ -47,11 +93,11 @@ class="site-logo">
 <nav class="main-nav">
 
 <a href="/fr/">Accueil</a>
-<a href="/fr/about.html">À propos</a>
-<a href="/fr/technology.html">Technologie</a>
+<a href="/fr/about.html">About</a>
+<a href="/fr/technology.html">Technology</a>
 <a href="/fr/applications.html">Applications</a>
 <a href="/fr/solutions.html">Solutions</a>
-<a href="/fr/news.html">Actualités</a>
+<a href="/fr/news.html">News</a>
 <a href="/fr/contact.html">Contact</a>
 
 <a href="https://www.linkedin.com/in/RP-damani-group/" target="_blank">LinkedIn</a>
@@ -98,7 +144,7 @@ La coulée continue est un procédé clé de la sidérurgie permettant de produi
 </figure>
 
 <figure class="figure-large">
-<img src="/assets/cage-new.JPG" alt="Structure de cage de coulée continue">
+<img src="/assets/cage-new.JPG" alt="Structure de segment de coulée continue">
 <figcaption>Structure de segment comportant de nombreux rouleaux</figcaption>
 </figure>
 
@@ -111,12 +157,12 @@ La coulée continue est un procédé clé de la sidérurgie permettant de produi
 <h2>Conditions de fonctionnement sévères</h2>
 
 <p>
-Lors de la coulée, l’acier liquide passe entre les rouleaux dans des conditions thermiques et mécaniques extrêmes.
+Lors de la coulée, l’acier chaud circule entre les rouleaux dans des conditions thermiques et mécaniques extrêmes.
 </p>
 
 <figure class="figure-small">
-<img src="/assets/hotslab-roll.gif" alt="Brame chaude passant entre les rouleaux">
-<figcaption>Brame chaude circulant entre les rouleaux de coulée continue</figcaption>
+<img src="/assets/hotslab-roll.gif" alt="Brame chaude entre rouleaux">
+<figcaption>Brame chaude circulant entre les rouleaux</figcaption>
 </figure>
 
 </section>
@@ -128,12 +174,12 @@ Lors de la coulée, l’acier liquide passe entre les rouleaux dans des conditio
 <h2>Contraintes de gestion des rouleaux</h2>
 
 <p>
-Les rouleaux de coulée sont soumis à des contraintes industrielles sévères et nécessitent des opérations régulières d’inspection, de maintenance et de reconditionnement.
+Les rouleaux de coulée sont soumis à des contraintes sévères et nécessitent des opérations régulières d’inspection, de maintenance et de reconditionnement.
 </p>
 
 <figure class="figure-center">
-<img src="/assets/parc-roll.gif" alt="Parc de stockage de rouleaux">
-<figcaption>Zone de stockage des rouleaux de coulée</figcaption>
+<img src="/assets/parc-roll.gif" alt="Stockage de rouleaux">
+<figcaption>Zone de stockage des rouleaux</figcaption>
 </figure>
 
 </section>
@@ -145,11 +191,11 @@ Les rouleaux de coulée sont soumis à des contraintes industrielles sévères e
 <h2>Traçabilité traditionnelle des rouleaux</h2>
 
 <p>
-Dans de nombreuses aciéries, la traçabilité des rouleaux repose encore sur des documents papier ou des systèmes manuels.
+Dans de nombreuses aciéries, la traçabilité repose encore sur des documents papier ou des systèmes manuels.
 </p>
 
 <figure class="figure-small">
-<img src="/assets/paper-trav.gif" alt="Documents papier de suivi">
+<img src="/assets/paper-trav.gif" alt="Suivi papier">
 <figcaption>Exemple de traçabilité papier</figcaption>
 </figure>
 
@@ -162,17 +208,15 @@ Dans de nombreuses aciéries, la traçabilité des rouleaux repose encore sur de
 <h2>Concept TRACKROLL-ID®</h2>
 
 <p>
-TRACKROLL-ID® est un système de traçabilité RFID permettant d’identifier les rouleaux et de suivre leur cycle de vie à travers les opérations de maintenance et les zones de stockage.
+TRACKROLL-ID® est un système RFID permettant d’identifier les rouleaux et de suivre leur cycle de vie à travers les opérations de maintenance et de stockage.
 </p>
 
 <ul>
-
 <li><strong>TRACKROLL-ID® Tag</strong> – Tag RFID intégré dans les rouleaux</li>
 <li><strong>TRACKROLL-ID® Cross</strong> – Tag d’identification des traverses</li>
-<li><strong>TRACKROLL-ID® PDA</strong> – Lecteur industriel portable</li>
+<li><strong>TRACKROLL-ID® PDA</strong> – Lecteur portable industriel</li>
 <li><strong>TRACKROLL-ID® ViewApp</strong> – Application mobile</li>
 <li><strong>TRACKROLL-ID® myView</strong> – Plateforme web de suivi</li>
-
 </ul>
 
 </section>
@@ -188,25 +232,25 @@ Les tags TRACKROLL-ID® sont installés dans des logements usinés directement d
 </p>
 
 <figure class="figure-small">
-<img src="/assets/fix-tag.gif" alt="Installation d’un tag RFID dans un rouleau">
-<figcaption>Installation du tag TRACKROLL-ID dans la structure du rouleau</figcaption>
+<img src="/assets/fix-tag.gif" alt="Installation RFID">
+<figcaption>Installation du tag dans le rouleau</figcaption>
 </figure>
 
 <div class="figure-grid">
 
 <figure>
 <img src="/assets/tag%20traverse%20et%20pappers.jpg">
-<figcaption>Traverse équipée avec documentation de maintenance</figcaption>
+<figcaption>Traverse équipée avec documentation</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/tag%20traverse.jpg">
-<figcaption>Traverse équipée d’un tag RFID</figcaption>
+<figcaption>Traverse avec tag RFID</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/paper-trav.gif">
-<figcaption>Suivi de maintenance papier</figcaption>
+<figcaption>Suivi manuel</figcaption>
 </figure>
 
 </div>
@@ -223,24 +267,24 @@ Les tags TRACKROLL-ID® sont installés dans des logements usinés directement d
 
 <figure>
 <img src="/assets/pad-tag.gif">
-<figcaption>Lecteur PDA pour identification terrain</figcaption>
+<figcaption>Lecteur PDA terrain</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/wiew-app.gif">
-<figcaption>Interface mobile TRACKROLL-ID ViewApp</figcaption>
+<figcaption>Application mobile ViewApp</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/mywiew.gif">
-<figcaption>Interface de supervision TRACKROLL-ID MyView</figcaption>
+<figcaption>Interface MyView</figcaption>
 </figure>
 
 </div>
 
 <figure class="figure-small">
 <img src="/assets/pc.gif">
-<figcaption>Poste industriel avec TRACKROLL-ID MyView</figcaption>
+<figcaption>Poste industriel TRACKROLL-ID</figcaption>
 </figure>
 
 </section>
@@ -252,13 +296,11 @@ Les tags TRACKROLL-ID® sont installés dans des logements usinés directement d
 <h2>Avantages industriels</h2>
 
 <ul>
-
 <li>Identification numérique des rouleaux</li>
-<li>Localisation précise des rouleaux</li>
-<li>Traçabilité complète du cycle de vie</li>
+<li>Localisation précise</li>
+<li>Traçabilité complète</li>
 <li>Optimisation de la maintenance</li>
-<li>Intégration avec les systèmes informatiques de l’usine</li>
-
+<li>Intégration SI usine</li>
 </ul>
 
 </section>
@@ -270,7 +312,7 @@ Les tags TRACKROLL-ID® sont installés dans des logements usinés directement d
 <h2>Discuter de votre application</h2>
 
 <p>
-DAMANI Group accompagne les aciéristes et constructeurs dans la mise en place de solutions de traçabilité des rouleaux.
+DAMANI Group accompagne les aciéristes et intégrateurs dans la mise en place de solutions de traçabilité.
 </p>
 
 <a href="/fr/contact.html" class="cta-button">
@@ -286,63 +328,11 @@ Contacter DAMANI Group
 <h2>Documentation technique</h2>
 
 <p>
-Téléchargez la présentation complète de TRACKROLL-ID®.
+Téléchargez la présentation complète TRACKROLL-ID®.
 </p>
 
 <a href="/assets/pdf/trackroll-id-en.pdf" class="cta-button" target="_blank">
-Télécharger la présentation TRACKROLL-ID® (PDF)
+Télécharger la présentation (PDF)
 </a>
 
 </section>
-
-
-
-<footer class="site-footer">
-
-<div class="footer-container">
-
-<div class="footer-column">
-
-<h3>DAMANI Group</h3>
-
-<p>Capteurs industriels de positionnement et d’identification</p>
-<p>Solutions pour la sidérurgie et l’industrie lourde</p>
-
-<p>
-Phone: +33 (0)4 58 10 52 16<br>
-Email: <a href="mailto:contact@damani-group.fr">contact@damani-group.fr</a>
-</p>
-
-</div>
-
-<div class="footer-column">
-
-<h3>Solutions</h3>
-
-<p><a href="/fr/trackroll-id.html">TRACKROLL-ID®</a></p>
-<p><a href="/fr/veroline.html">VEROLINE®PI</a></p>
-
-</div>
-
-<div class="footer-column">
-
-<img src="/assets/logo-damani-white.png" class="footer-logo">
-
-<p><a href="/fr/">Accueil</a></p>
-<p><a href="/fr/about.html">About</a></p>
-<p><a href="/fr/technology.html">Technology</a></p>
-<p><a href="/fr/applications.html">Applications</a></p>
-<p><a href="/fr/contact.html">Contact</a></p>
-
-</div>
-
-</div>
-
-<div class="footer-bottom">
-<p>© 2026 DAMANI Group — Technologies de capteurs industriels</p>
-</div>
-
-</footer>
-
-</body>
-</html>
